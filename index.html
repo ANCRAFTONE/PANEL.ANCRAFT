@@ -160,9 +160,12 @@
 <script src="https://unpkg.com/scrollreveal"></script>
 <script>
   get(); //首次執行
-//ScrollReveal
-ScrollReveal().reveal('.block',{delay:500});
-function sidebar() {
-  $("body").toggleClass("mode");
-};
+
+  ScrollReveal().reveal('.block',{delay:500});  //ScrollReveal
+
+  $(document).ready(function(){ //按下enter送出請求
+  $("input").keyup(function(id){
+    if(id.key === "Enter"){get()};
+    });
+  });
 </script>

@@ -137,13 +137,9 @@ anime({ //統計數字自動增加動畫
 };//statsend 統計結束
 
 
-
 };//get ajax api請求結束
 
 
-
-$(document).ready(function(){
-  $("input").keyup(function(id){
-    if(id.key === "Enter"){get()};
-    });
-  });//按下enter以查詢資料
+function sidebar() { //側邊導覽切換
+  $("body").toggleClass("mode");
+};
