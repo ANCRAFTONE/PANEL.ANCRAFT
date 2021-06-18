@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<head>
+  <title>ancraft1</title>
+  <link rel="icon" href="https://i.imgur.com/BatHs5l.png">
+  <link rel="stylesheet" href="style.css">
+  <script src='script.js'></script>
+	<script src='https://cdn.plot.ly/plotly-2.0.0.min.js'></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet">
+	<script src='https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+
+  <div class="sidebar" id="ANCRAFT1">
+    <div class="logobar" onclick="sidebar()">
+      <i class='bx bx-code-block'></i>
+      <span class="ANCRAFT.ONE">ANCRAFT</span>
+    </div>
+
+    <div class="nav">
+      <ul class="navl">
+        <li>
+          <a href="#">
+            <i class='bx bxs-dashboard'></i>
+            <span> 儀錶板 </span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bxs-data' ></i>
+            <span> 資料庫 </span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bxs-doughnut-chart'></i>
+            <span> 狀態查詢 </span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bxs-file-md'></i>
+            <span> 內容說明 </span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bxs-paper-plane bx-tada'></i>
+            <span> 聯絡我 </span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bxs-compass'></i>
+            <span> 爬蟲功能 </span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bxs-tag-alt'></i>
+            <span> 多一行 </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+
+  <section class="main" id="ANCRAFT1">
+      <!-- 頂部導覽列 -->
+      <section class="top" id="ANCRAFT1">
+        <div class="title" onclick="sidebar()">
+        <i class='bx bxs-planet'></i>
+        <p class="titletext">電商查詢中心</p>
+        </div>
+        <div class="searchbar">
+          <i class='bx bx-search-alt' onclick="get()"></i>
+          <input autofocus type="text" placeholder="輸入搜尋關鍵字" id="s" value="3060">
+          <!-- <button type="button" onclick="butt()//啟動" class="button">開始查詢</button> -->
+        </div>
+        <div class="user">
+          <p>hi,</p>
+          <p id="username" id="ANCRAFT1">ANCRAFT</p>
+        </div>
+      </section>
+
+
+
+
+      <!-- 資料區塊 -->
+
+      <section class="plot" id="ANCRAFT1"> 
+        <div class="l1">
+          <div class="block data">
+            <div>
+              <h3 class="1" id="data_1">000</h3>
+              <h5>已找到的資料</h5>
+            </div>
+            <div>
+              <i class='bx bx-data'></i>
+            </div>
+          </div>
+          <div class="block data">
+            <div>
+              <h3 class="1" id="data_2">000</h3>
+              <h5>項目最高賣價</h5>
+            </div>
+            <div>
+              <i class='bx bx-purchase-tag-alt'></i>
+            </div>
+          </div>
+          <div class="block data">
+            <div>
+              <h3 class="1" id="data_3">000</h3>
+              <h5>項目最高價差</h5>
+            </div>
+            <div>
+              <i class='bx bx-bar-chart'></i>
+            </div>
+          </div>
+          <div class="block data">
+            <div>
+              <h3 class="1" id="data_4">000</h3>
+              <h5>項目最低賣價</h5>
+            </div>
+            <div>
+              <i class='bx bx-barcode'></i>
+            </div>
+          </div>
+        </div>
+        <div class="l">
+          <div class="block">
+            <h3 id="tag">價格</h3>
+            <div id='prices'></div>
+          </div>
+          <div class="block">
+            <h3 id="tag">供應商</h3>
+          <div id='bys'></div>
+          </div>
+          <div class="block">
+            <h3 id="tag">電商占比</h3>
+            <div id='pie'></div>
+          </div>
+          <div class="block">
+            <h3 id="tag">零售商</h3>
+          <div id='anc'></div>
+          </div>
+        </div>
+      </section>
+</section>
+
+
+</body>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+  get(); //首次執行
+  $(document).ready(function(){
+  $("input").keyup(function(id){
+    if(id.key === "Enter"){get()};
+    });
+  });
+//ScrollReveal
+ScrollReveal().reveal('.block',{delay:500});
+function sidebar() {
+  $("body").toggleClass("mode");
+};
+</script>
