@@ -23,7 +23,7 @@
   .mode .sidebar span {
     display:inline-block;
   }
-/* 側邊導覽nav */
+  /* 側邊導覽nav */
   .sidebar {
     position: relative;
     display: flex;
@@ -37,7 +37,6 @@
     align-content: center;
     justify-content: flex-start;
     align-items: center;
-
   }
   .sidebar .logobar{
     display: flex;
@@ -208,6 +207,7 @@
   
 
 
+  /* 區塊 */
   .block {
     border-radius: 0.91em;
     background-color: rgb(255, 255, 255);
@@ -217,7 +217,7 @@
     padding-bottom: 3em;
     height: auto;
   }
-  
+  /* 區塊標籤 */
   #tag {
     margin-left: 1.3em;
     margin-top: 0.3em;
@@ -227,19 +227,18 @@
 
 
   /* scrollbar */
-  
-::-webkit-scrollbar {
-  width: 3px;
-}
+  ::-webkit-scrollbar {
+    width: 3px;
+  }
 
-::-webkit-scrollbar-track {
-  background: #313131;
-}
+  ::-webkit-scrollbar-track {
+    background: #313131;
+  }
 
-::-webkit-scrollbar-thumb {
-  background: #aaa;
-}
+  ::-webkit-scrollbar-thumb {
+    background: #aaa;
+  }
 
-::-webkit-scrollbar-thumb:hover {
-  background: #a1a3a1;
-}
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a1a3a1;
+  }
