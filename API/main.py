@@ -20,7 +20,7 @@ async def root(s):
 
     dbfrom = ''
 
-    conn = pymysql.connect(host="saver.ancraft.one", user="ANCRAFT", password="bkZbhN8tpECYrWPk", database="ANCRAFT", charset="utf8")
+    conn = pymysql.connect(host="api.ancraft.one", user="ANCRAFT", password="", database="ANCRAFT", charset="utf8")
     cursor = conn.cursor()
     cursor.execute('SELECT * FROM `sell` WHERE `name` LIKE \'%{0}%\''.format(s)) #sql搜尋指令
     data = cursor.fetchall()
@@ -49,7 +49,7 @@ async def root(id):
 
     dbfrom = ''
 
-    conn = pymysql.connect(host="saver.ancraft.one", user="ANCRAFT", password="bkZbhN8tpECYrWPk", database="ANCRAFT", charset="utf8")
+    conn = pymysql.connect(host="api.ancraft.one", user="ANCRAFT", password="", database="ANCRAFT", charset="utf8")
     cursor = conn.cursor()
     cursor.execute('SELECT * FROM `sell` WHERE `by` LIKE \'%{0}%\''.format(id)) #sql搜尋指令
     data = cursor.fetchall() #儲存查詢結果
