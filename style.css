@@ -109,6 +109,8 @@
     top: 0em;
     flex-wrap: wrap;
     flex-direction: row;
+    border-radius: 0em;
+    font-weight: bold;
   }
   #ANCRAFT1.top .title {
     display: flex;
@@ -249,4 +251,5 @@
   .fixede{
     position:fixed;
     position: sticky;
+    top: 0em;
   }
