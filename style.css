@@ -166,7 +166,7 @@
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
     grid-gap: 1.3em;
-    padding: 6em 1em 1em 1em;
+    padding: 3.1em 1em 1em 1em;
     /* justify-content: space-around; */
     
   } 
@@ -184,7 +184,7 @@
     height: auto;
     flex-direction: row;
     justify-content: space-around;
-    padding: 1em;
+    padding: 1.3em 1em 1.3em 1em;
     align-items: center;
     color: rgb(99, 99, 99);
     flex-wrap: wrap-reverse;
@@ -247,4 +247,5 @@
   /* fixed */
   .fixede{
     position:fixed;
+    position: sticky;
   }
