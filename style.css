@@ -105,7 +105,7 @@
     z-index: 9131;
     width: 100%;
     top: 0em;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
   }
   #ANCRAFT1.top .title {
