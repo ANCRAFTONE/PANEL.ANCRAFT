@@ -223,10 +223,17 @@
     align-items: center;
     background-color: rgb(79, 216, 136);
   }
-  .stats .footer a,.stats .footer i{
-    display: contents;
-    color: #fff;
+  .stats .footer a{
+    display: flex;
     width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #fff;
+    font-weight: 700;
   }
 
 
