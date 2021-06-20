@@ -182,6 +182,9 @@
   }
   
   /*區塊設定*/
+  .stats {
+    padding: 1.3em 1em 1.3em 1em;
+  }
   .data {
     display: flex;
     height: auto;
