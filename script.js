@@ -8,6 +8,7 @@ const api = 'http://127.0.0.1:19132/s/' + s;//api請求地址
 document.title = s+"-搜尋結果"; //設定標題
 $.ajax({
   type: "GET",
+  headers: {},
   url: api,
   dataType: "json",
   crossDomain : true,
