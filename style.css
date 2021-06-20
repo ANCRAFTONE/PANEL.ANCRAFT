@@ -210,7 +210,7 @@
   .stats .data div h3{
     font-size: 3em;
   }
-  .stats a {
+  .stats .footer {
     display: flex;
     /* position: sticky; */
     width: 100%;
