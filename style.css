@@ -183,6 +183,7 @@
   
   /*區塊設定*/
   .stats {
+    display: grid;
   }
   .stats .data {
     display: flex;
