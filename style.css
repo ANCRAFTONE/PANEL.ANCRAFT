@@ -182,30 +182,30 @@
   }
   
   /*區塊設定*/
-  .block.data {
+  .data {
     display: flex;
     height: auto;
     flex-direction: row;
     justify-content: space-around;
-    padding: 1.3em 1em 1.3em 1em;
+    /* padding: 1.3em 1em 1.3em 1em; */
     align-items: center;
     color: rgb(99, 99, 99);
     flex-wrap: wrap-reverse;
     align-content: center;
   }
-  .block.data div {
+  .data div {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
     align-content: center;
   }
-  .block.data div i{
+  .data div i{
     font-size: 6em;
     right: 0em;
     color: rgb(240, 81, 107, 0.61);
   }
-  .block.data div h3{
+  .data div h3{
     font-size: 3em;
   }
   
@@ -218,7 +218,7 @@
     box-shadow: 0 0.3em 1em rgba(97, 97, 97, 0.3);
     overflow: hidden;
     margin: 0em;
-    padding-bottom: 3em;
+    /* padding-bottom: 3em; */
     height: auto;
   }
   /* 區塊標籤 */
