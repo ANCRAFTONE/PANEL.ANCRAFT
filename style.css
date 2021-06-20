@@ -169,9 +169,9 @@
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
     grid-gap: 1.3em;
-    padding: 3.1em 1em 1em 1em;
+    padding: 1em 1em 1em 1em;
     /* justify-content: space-around; */
-    
+    width: 100%;
   } 
   .l{
     display: grid;
@@ -287,7 +287,9 @@
     top: 0em;
   }
 
-  /* title */
-  .title {
-    font-size: 1em;
+  /* path */
+  .path {
+    color: #0000007d;
+    font-size: 1.5em;
+    padding: 1em;
   }
