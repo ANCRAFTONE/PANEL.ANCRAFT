@@ -222,8 +222,10 @@
     align-items: center;
     background-color: rgb(79, 216, 136);
   }
-  .stats .footer a,i{
+  .stats .footer a,.stats .footer i{
+    display: contents;
     color: #fff;
+    width: 100%;
   }
 
 
