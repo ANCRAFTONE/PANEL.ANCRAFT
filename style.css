@@ -286,3 +286,8 @@
     position: sticky;
     top: 0em;
   }
+
+  /* title */
+  .title {
+    font-size: 1em;
+  }
