@@ -222,7 +222,9 @@
     align-items: center;
     background-color: rgb(79, 216, 136);
   }
-  
+  .stats .footer a,i{
+    color: #fff;
+  }
 
 
   /* 區塊 */
