@@ -1,0 +1,24 @@
+.block .text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .block .image{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .l{
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .mode .sidebar{
+    background-color: #61C2B3;
+    transition: 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
