@@ -145,4 +145,5 @@ function sidebar() { //側邊導覽切換
   $("body").toggleClass("mode");
 };
 
-ScrollReveal().reveal('.block',{delay:500});  //ScrollReveal
+
+
