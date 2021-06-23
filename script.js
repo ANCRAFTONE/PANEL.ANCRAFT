@@ -144,3 +144,5 @@ function stats(name,price,by,img,store,sho,jsond){ //製作數據統計
 function sidebar() { //側邊導覽切換
   $("body").toggleClass("mode");
 };
+
+ScrollReveal().reveal('.block',{delay:500});  //ScrollReveal
