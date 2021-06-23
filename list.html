@@ -177,12 +177,10 @@
 <script>
   get(); //首次執行
 
-  ScrollReveal().reveal('.block',{delay:500});  //ScrollReveal
-  
   $(document).ready(function(){ //按下enter送出請求
-  $("input").keyup(function(id){
-    if(id.key === "Enter"){get()};
-    });
+    $("input").keyup(function(id){
+      if(id.key === "Enter"){get()};
+      });
   });
 </script>
 <link rel="stylesheet" href="list.css">
