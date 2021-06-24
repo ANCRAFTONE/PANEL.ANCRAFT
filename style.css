@@ -297,3 +297,7 @@
     font-size: 1.5em;
     padding: 1em;
   }
+
+  .sidebar .navl li i:hover{
+    color: rgb(82, 13, 196);
+  }
