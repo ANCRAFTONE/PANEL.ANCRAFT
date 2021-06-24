@@ -89,6 +89,7 @@
   }
   .sidebar .navl li a i{
     font-size: 1.3em;
+    padding-right: 0.1em;
   }
   .sidebar .navl li a i,.sidebar .navl li a span{
     color: #f0ecff;
