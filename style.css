@@ -75,11 +75,21 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
+    width: 100%;
   }
-  .sidebar .navl li i{
+  .sidebar .navl li a{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .sidebar .navl li a i{
     font-size: 1.3em;
   }
-  .sidebar .navl li i,span{
+  .sidebar .navl li a i,.sidebar .navl li a i span{
     color: #f0ecff;
   }
   .sidebar span{
