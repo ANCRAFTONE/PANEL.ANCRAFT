@@ -298,6 +298,6 @@
     padding: 1em;
   }
 
-  .sidebar .navl li i:hover{
-    color: rgb(82, 13, 196);
+  .sidebar .navl li a i:hover{
+    transition: cubic-bezier(0.23, 1, 0.320, 1);
   }
