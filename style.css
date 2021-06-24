@@ -83,8 +83,9 @@
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     width: 100%;
+    padding: 0.91em;
   }
   .sidebar .navl li a i{
     font-size: 1.3em;
