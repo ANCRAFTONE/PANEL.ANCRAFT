@@ -46,7 +46,7 @@ function lodata(jsond) { //處理數據
     <div class="block">
     <h3 id="tag">${name}</h3>
     <div class="image">
-    <img src=${img}></img>
+    <a href="${item}"><img src=${img}></img></a>
     </div>
     <div class="text">
       <p>${price}</p>
