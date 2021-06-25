@@ -30,7 +30,7 @@ function lodata(jsond) { //處理數據
   $(".l").html("")
 	// console.log(jsond);
 	var name = [], standard_deviation = []; //分類資料
-  var price = [], by = [], img = [],sho = [],store = []; //分類資料
+  var price = [], by = [], img = [],sho = [],store = [],item =[]; //分類資料
 
 	for (var i=0; i<jsond.length; i++) { //循環處理每列資料
 		row = jsond[i]; //正在處理列
@@ -41,6 +41,7 @@ function lodata(jsond) { //處理數據
 		by = row['by'] 
     sho = shopkeeper[1] 
     img = row['image'] 
+    item = row['item']
     // console.log(row)
     tem = `
     <div class="block">
