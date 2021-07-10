@@ -45,7 +45,7 @@
     transition: 1.31s cubic-bezier(0.39, 0.575, 0.565, 1);
     min-height: 100hv;
   }
-  .sidebar .logobar{
+  .sidebar .logobar {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -57,6 +57,8 @@
     width: 100%;
     font-size: 1.6em;
     font-weight: bolder;
+  }
+  .opennav .sidebar .logobar {
     min-height: 6em;
   }
   .sidebar .logobar i {
