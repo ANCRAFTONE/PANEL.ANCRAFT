@@ -48,8 +48,8 @@
   }
   .sidebar .logobar{
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    align-items: flex-start;
+    justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: row;
     align-content: flex-start;
