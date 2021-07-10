@@ -47,11 +47,11 @@
   }
   .sidebar .logobar{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    flex-direction: row;
-    align-content: flex-start;
+    flex-direction: column;
+    align-content: space-around;
     top: 0em;
     padding: 0.6em 0em 1em 0em;
     width: 100%;
@@ -113,7 +113,7 @@
   }
   .opennav .sidebar span , .opennav .sidebar h3 {
     display: inline-block;
-    animation: opennav 3s;
+    animation: opennav 1.31s;
     animation-delay: 1.31s;
     animation-fill-mode: forwards;
     animation-timing-function: cubic-bezier(1, 0.15, 0.56, 1);
