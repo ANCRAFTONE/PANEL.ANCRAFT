@@ -14,7 +14,7 @@
     min-height: 100vh;
     display: grid;
     /* grid-template-columns: 3% auto; */
-    grid-template-columns: max-content 1fr;
+    grid-template-columns: max-content max-content;
   }
   /* .opennav{
     min-height: 100vh;
@@ -24,15 +24,8 @@
 
   /* 側邊導覽nav */
   .opennav .sidebar span , .opennav .sidebar h3 {
-    animation: opennav 1.3s;
-    animation-delay: 10s;
-  }
-  @keyframes opennav{
-    from {opacity: 0%;}
-    to {
-      opacity: 100%;
-      display:inline-block;
-    }
+    display: inline-block;
+    opacity: 100%;
   }
   .opennav .sidebar {
     background-color: #61C2B3;
@@ -116,6 +109,7 @@
   }
   .sidebar span, .sidebar h3 {
     display: none;
+    opacity: 0%;
   }
 
 
