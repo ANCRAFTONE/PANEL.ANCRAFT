@@ -100,14 +100,15 @@
     color: #f0ecff;
   }
   .sidebar h3 {
-    font-size: 1em;
-  }
-  .sidebar span, .sidebar h3 {
-    display: none;
+    font-size: 0.91em;
   }
   .sidebar span {
     width: 6em;
   }
+  .sidebar span, .sidebar h3 {
+    display: none;
+  }
+
 
 
 
