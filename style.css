@@ -181,7 +181,7 @@
     width: 31em;
     display: flex;
     border-radius: 0.31em;
-    border: 0.1em #E0EAFF solid;
+    border: 0.1em #2568f8 solid;
     background-color: #E0EAFFA3;
     position: relative;
     flex-direction: row-reverse;
@@ -204,9 +204,9 @@
     /* position: absolute;
     right: -0.7em;
     top: 50%;
-    transform: translate(-50%, -50%); */
-    border-radius: 0.31em;
-    background-color:rgb(240, 81, 107, 0.61);
+    transform: translate(-50%, -50%); 
+    border-radius: 0.31em; */
+    background-color: #2568f8;
     color: #fff;
     font-size: 1.6em;
     padding: 0.3em;
