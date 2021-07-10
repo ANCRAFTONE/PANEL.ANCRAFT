@@ -240,7 +240,7 @@
   } 
   .l{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: '. .';
     grid-gap: 1.3em;
     padding: 1em 1em 1em 1em;
     /* justify-content: space-around; */
@@ -325,6 +325,9 @@
     color:rgb(122, 132, 150);
     font-size: 1em;
     letter-spacing: 0.1em;
+  }
+  .l .block{
+    min-height: 30em;
   }
 
 
