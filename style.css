@@ -226,7 +226,7 @@
     font-size: 1.3em;
     font-weight: bold;
   }
-/* 板塊設定 */
+/* 區塊設定 */
 /* justify-content: space-around; */
 
   .plot { display: grid;}
@@ -239,28 +239,6 @@
     margin: 0em;
     /* padding-bottom: 3em; */
     height: auto;
-  }
-  .l1 {
-    display: grid;
-    grid-template-columns: repeat(4 , 1fr);
-    grid-gap: 1.3em;
-    padding: 1em 1em 1em 1em;
-    /* justify-content: space-around; */
-    width: 100%;
-  } 
-  .t {
-    display: grid;
-    grid-template-columns: repeat(2, max-content);
-    grid-gap: 1.3em;
-    padding: 1em 1em 1em 1em;
-    /* justify-content: space-around; */
-  }
-  .l{
-    display: grid;
-    grid-template-areas: '. .';
-    grid-gap: 1.3em;
-    padding: 1em 1em 1em 1em;
-    /* justify-content: space-around; */
   }
   
   /*統計區塊設定*/
@@ -324,8 +302,6 @@
     letter-spacing: 0.1em;
   }
 
-
-
   /* 區塊標籤 */
   #tag {
     padding-left: 1.3em;
@@ -335,6 +311,31 @@
     letter-spacing: 0.1em;
   }
 
+
+
+  /* 板塊設定 */
+  .l1 {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 1.3em;
+    padding: 1em 1em 1em 1em;
+    /* justify-content: space-around; */
+    width: 100%;
+  } 
+  .t {
+    display: grid;
+    grid-template-columns: 31fr 13fr;
+    grid-gap: 1.3em;
+    padding: 1em 1em 1em 1em;
+    /* justify-content: space-around; */
+  }
+  .l{
+    display: grid;
+    grid-template-areas: '. .';
+    grid-gap: 1.3em;
+    padding: 1em 1em 1em 1em;
+    /* justify-content: space-around; */
+  }
 
   /* scrollbar */
   ::-webkit-scrollbar {
@@ -381,9 +382,10 @@
     min-height: 30em;
   }
 
+
+  .t {
+    width: 100%;
+  }
   .t .block{
     min-height: 30em;
-  }
-  .t .block:nth-child(1){
-    width: 70em;
   }
