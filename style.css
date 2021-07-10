@@ -109,6 +109,7 @@
     display: none;
     opacity: 0%;
     text-overflow: ellipsis;
+    left: 11em;
   }
   .opennav .sidebar span , .opennav .sidebar h3 {
     display: inline-block;
@@ -120,6 +121,7 @@
     to{
       position: relative;
       opacity: 100%;
+      left: 0em;
     }
   }
 
