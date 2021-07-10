@@ -307,10 +307,12 @@
   /* path */
   .path {
     color: #0000007d;
-    font-size: 1.5em;
+    font-size: 1em;
     padding: 1em;
   }
-
+  .path h1 {
+    font-weight: 600;
+  }
   .sidebar .navl li a i:hover{
     transition: cubic-bezier(0.23, 1, 0.320, 1);
   }
