@@ -30,6 +30,7 @@
   .mode .sidebar {
     background-color: #61C2B3;
     transition: 3s cubic-bezier(0.39, 0.575, 0.565, 1);
+    text-shadow: 1px 1px 0.1em rgb(97 97 97 / 13%);
   }
   .sidebar {
     position: relative;
