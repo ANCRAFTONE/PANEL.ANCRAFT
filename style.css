@@ -113,15 +113,23 @@
   }
   .opennav .sidebar span , .opennav .sidebar h3 {
     display: inline-block;
-    animation: opennav 1s;
+    animation: opennav 3s;
     animation-delay: 1.31s;
     animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(1, 0.15, 0.56, 1);
   }
   @keyframes opennav {
-    to{
+    31%{
       position: relative;
-      opacity: 100%;
+    }
+    91%{
+      position: relative;
       left: 0em;
+    }
+    100%{
+      position: relative;
+      left: 0em;
+      opacity: 100%;
     }
   }
 
