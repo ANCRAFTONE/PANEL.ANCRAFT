@@ -182,8 +182,8 @@
     display: grid;
     border-radius: 0.31em;
     overflow: hidden;
-    /* border: 0.1em #2568f800 solid; */
-    background-color: #53535310;
+    /* border: 1.31em #2568f800 solid; */
+    background-color: #53535313;
     position: relative;
     grid-template-columns: auto 3em;
   }
@@ -196,7 +196,7 @@
     padding: 0.3em 0em 0.33em 1em;
     background-color: #E0EAFF00;
     color: rgb(99, 99, 99);
-    
+    font-weight: 600;
   }
   #ANCRAFT1.top .searchbar .get {
     /* position: absolute;
@@ -209,8 +209,9 @@
     font-size: 1.6em;
     display: flex;
     align-items: center;
-    align-content: flex-end;
+    align-content: center;
     padding: 0.3em;
+    justify-content: center;
   }
   #ANCRAFT1.top .user ,#ANCRAFT1.p {
     display: flex;
