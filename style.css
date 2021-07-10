@@ -181,6 +181,7 @@
     width: 31em;
     display: flex;
     border-radius: 0.31em;
+    overflow: hidden;
     border: 0.1em #2568f8 solid;
     background-color: #53535310;
     position: relative;
@@ -200,7 +201,7 @@
     background-color: #E0EAFF00;
     color: rgb(99, 99, 99);
   }
-  #ANCRAFT1.top .searchbar i {
+  #ANCRAFT1.top .searchbar .get {
     /* position: absolute;
     right: -0.7em;
     top: 50%;
@@ -212,6 +213,7 @@
     padding: 0.3em;
     align-items: center;
     align-content: flex-end;
+    display: flex;
   }
   #ANCRAFT1.top .user ,#ANCRAFT1.p {
     display: flex;
