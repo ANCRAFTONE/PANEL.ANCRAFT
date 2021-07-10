@@ -23,6 +23,9 @@
   .mode .sidebar span {
     display:inline-block;
   }
+  .mode .sidebar h3 {
+    display:inline-block;
+  }
   /* 側邊導覽nav */
   .mode .sidebar {
     background-color: #61C2B3;
@@ -96,7 +99,7 @@
   .sidebar .navl li a i,.sidebar .navl li a span{
     color: #f0ecff;
   }
-  .sidebar span{
+  .sidebar span, .sidebar h3 {
     display: none;
     width: 6em;
   }
