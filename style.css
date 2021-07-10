@@ -226,10 +226,20 @@
     font-size: 1.3em;
     font-weight: bold;
   }
-/* 統計區塊 */
+/* 板塊設定 */
 /* justify-content: space-around; */
 
   .plot { display: grid;}
+    /* 區塊 */
+  .block {
+    border-radius: 0.91em;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0.3em 1em rgba(97, 97, 97, 0.3);
+    overflow: hidden;
+    margin: 0em;
+    /* padding-bottom: 3em; */
+    height: auto;
+  }
   .l1 {
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
@@ -238,6 +248,13 @@
     /* justify-content: space-around; */
     width: 100%;
   } 
+  .t {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    grid-gap: 1.3em;
+    padding: 1em 1em 1em 1em;
+    /* justify-content: space-around; */
+  }
   .l{
     display: grid;
     grid-template-areas: '. .';
@@ -308,26 +325,14 @@
   }
 
 
-  /* 區塊 */
-  .block {
-    border-radius: 0.91em;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 0.3em 1em rgba(97, 97, 97, 0.3);
-    overflow: hidden;
-    margin: 0em;
-    /* padding-bottom: 3em; */
-    height: auto;
-  }
+
   /* 區塊標籤 */
   #tag {
-    margin-left: 1.3em;
+    padding-left: 1.3em;
     margin-top: 0.3em;
     color:rgb(122, 132, 150);
     font-size: 1em;
     letter-spacing: 0.1em;
-  }
-  .l .block{
-    min-height: 30em;
   }
 
 
@@ -369,4 +374,16 @@
     transition: cubic-bezier(0.23, 1, 0.320, 1);
     background-color:rgb(79, 216, 136);
     transition: 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+  }
+
+  
+  .l .block{
+    min-height: 30em;
+  }
+
+  .t .block{
+    min-height: 30em;
+  }
+  .t .block:nth-child(1){
+    width: 70em;
   }
