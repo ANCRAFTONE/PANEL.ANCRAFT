@@ -21,13 +21,16 @@
     display: grid;
     grid-template-columns: 11% auto;
   } */
-  .opennav .sidebar span {
-    display:inline-block;
-  }
-  .opennav .sidebar h3 {
-    display:inline-block;
-  }
+
   /* 側邊導覽nav */
+  .opennav .sidebar span , .opennav .sidebar h3 {
+    animation: opennav 1.3s;
+    animation-delay: 10s;
+  }
+  @keyframes opennav{
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+  }
   .opennav .sidebar {
     background-color: #61C2B3;
     text-shadow: 1px 1px 0.1em rgb(97 97 97 / 13%);
