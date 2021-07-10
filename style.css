@@ -399,19 +399,20 @@
     align-content: center;
     justify-content: space-between;
     align-items: center;
+    height: 3em;
   }
   .toolbar button{
     width: 6em;
     height: 3em;
     border-radius: 0.3em;
     border: none;
-    background-color:#a593fc00;
+    background-color: #a493fc31;
     transition: 1.31s cubic-bezier(0.19, 1.1, 0.56, 1);
-    border-bottom: #a593fc solid;
+    border: #a493fc00 solid 0.3em;
+    border-bottom: #a593fc solid 0.3em;
   }
   .toolbar button:hover{
-    border: 0.1em salmon;
+    border: #a593fc solid 0.3em;
     background-color: seashell;
-    border-style: groove;
     transform: 1s;
   }
