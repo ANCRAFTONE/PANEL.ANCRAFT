@@ -76,6 +76,8 @@
     justify-content: flex-start;
     align-items: center;
     width: 100%;
+    transition: 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+    border-radius: 0em;
   }
   .sidebar .navl li a{
     display: flex;
@@ -313,6 +315,8 @@
   .path h1 {
     font-weight: 600;
   }
-  .sidebar .navl li a i:hover{
+  .sidebar .navl li:hover{
     transition: cubic-bezier(0.23, 1, 0.320, 1);
+    background-color:rgb(79, 216, 136);
+    transition: 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
   }
