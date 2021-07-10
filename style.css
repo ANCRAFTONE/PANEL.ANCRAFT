@@ -25,7 +25,7 @@
   /* 側邊導覽nav */
   .opennav .sidebar {
     background-color: #61C2B3;
-    text-shadow: 1px 1px 0.1em rgb(97 97 97 / 13%);
+    text-shadow: 1px 1px 0.1em rgb(97 97 97 / 13.1%);
     width: 13.1em;
   }
   .sidebar {
@@ -34,7 +34,7 @@
     padding: 0em;
     top: 0em;
     height: 100%;
-    width: 3em;
+    width: 3.1em;
     background-color: #131e36;
     color: #f0ecff;
     flex-direction: column;
@@ -173,7 +173,7 @@
     padding-left: 0em;
     font-size: 1.91em;
     align-items: center;
-    color: rgb(122, 132, 150);
+    color: rgb(122, 131, 150);
     font-weight: 600;
   }
   #ANCRAFT1.top .searchbar { 
@@ -230,7 +230,7 @@
 /* 區塊設定 */
 /* justify-content: space-around; */
 
-  .plot { display: grid;}
+  .plot {display: grid;}
     /* 區塊 */
   .block {
     border-radius: 0.91em;
@@ -265,16 +265,16 @@
     align-items: center;
     align-content: center;
   }
-  .stats .data div i{
+  .stats .data div i {
     font-size: 6em;
     color: #4a4373;
     text-shadow: 0.0131em 0.0131em 0.0131em #a593fc;
   }
-  .stats .data div h3{
+  .stats .data div h3 {
     font-size: 3em;
     font-weight: bold;
   }
-  .stats .data div h5{
+  .stats .data div h5 {
     font-size: 1em;
     letter-spacing: 0.1em;
   }
@@ -290,7 +290,7 @@
     align-items: center;
     background-color: rgb(79, 216, 136);
   }
-  .stats .footer a{
+  .stats .footer a {
     display: flex;
     width: 100%;
     height: 100%;
@@ -331,7 +331,7 @@
     padding: 1em 1em 1em 1em;
     /* justify-content: space-around; */
   }
-  .l{
+  .l {
     display: grid;
     grid-template-areas: '. .';
     grid-gap: 1.3em;
@@ -357,7 +357,7 @@
   }
 
   /* fixed */
-  .fixede{
+  .fixede {
     position:fixed;
     position: sticky;
     top: 0em;
@@ -373,7 +373,7 @@
   .path h1 {
     font-weight: 600;
   }
-  .sidebar .navl li:hover{
+  .sidebar .navl li:hover {
     transition: cubic-bezier(0.23, 1, 0.320, 1);
     background-color:rgb(79, 216, 136);
     transition: 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
