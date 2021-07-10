@@ -326,7 +326,7 @@
   } 
   .t {
     display: grid;
-    grid-template-columns: 31fr 13fr;
+    grid-template-columns: 131fr 31fr;
     grid-gap: 1.3em;
     padding: 1em 1em 1em 1em;
     /* justify-content: space-around; */
