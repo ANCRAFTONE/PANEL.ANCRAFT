@@ -23,10 +23,6 @@
   } */
 
   /* 側邊導覽nav */
-  .opennav .sidebar span , .opennav .sidebar h3 {
-    display: inline-block;
-    opacity: 100%;
-  }
   .opennav .sidebar {
     background-color: #61C2B3;
     text-shadow: 1px 1px 0.1em rgb(97 97 97 / 13%);
@@ -110,6 +106,10 @@
   .sidebar span, .sidebar h3 {
     display: none;
     opacity: 0%;
+  }
+  .opennav .sidebar span , .opennav .sidebar h3 {
+    display: inline-block;
+    opacity: 100%;
   }
 
 
