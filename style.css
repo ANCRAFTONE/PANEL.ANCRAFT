@@ -391,3 +391,27 @@
   .t .block{
     min-height: 30em;
   }
+
+  .toolbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .toolbar button{
+    width: 6em;
+    height: 3em;
+    border-radius: 0.3em;
+    border: none;
+    background-color:#a593fc00;
+    transition: 1.31s cubic-bezier(0.19, 1.1, 0.56, 1);
+    border-bottom: #a593fc solid;
+  }
+  .toolbar button:hover{
+    border: 0.1em salmon;
+    background-color: seashell;
+    border-style: groove;
+    transform: 1s;
+  }
