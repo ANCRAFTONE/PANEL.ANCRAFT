@@ -250,7 +250,7 @@
     height: auto;
     flex-direction: row;
     justify-content: space-around;
-    padding: 1.3em 1em 1.3em 1em;
+    padding: 0.31em 1em 0.31em 1em;
     align-items: center;
     color: rgb(99, 99, 99);
     flex-wrap: wrap-reverse;
@@ -266,7 +266,7 @@
   }
   .stats .data div i{
     font-size: 6em;
-    color: rgb(240, 81, 107, 0.61);
+    color: #4a4373;
   }
   .stats .data div h3{
     font-size: 3em;
