@@ -14,7 +14,7 @@
     min-height: 100vh;
     display: grid;
     /* grid-template-columns: 3% auto; */
-    grid-template-columns: min-content 1fr;
+    grid-template-columns: max-content 1fr;
   }
   .mode{
     min-height: 100vh;
