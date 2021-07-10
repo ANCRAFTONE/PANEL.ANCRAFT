@@ -184,6 +184,11 @@
     border: 0.1em #E0EAFF solid;
     background-color: #E0EAFFA3;
     position: relative;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
   }
   #ANCRAFT1.top .searchbar input {
     height: 100%;
@@ -194,11 +199,11 @@
     border: none;
     background-color: #E0EAFF00;
   }
-  #ANCRAFT1.top .searchbar .bx{
-    position: absolute;
+  #ANCRAFT1.top .searchbar i {
+    /* position: absolute;
     right: -0.7em;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     border-radius: 0.31em;
     background-color:rgb(240, 81, 107, 0.61);
     color: #fff;
