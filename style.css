@@ -85,7 +85,7 @@
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-around;
     width: 100%;
     padding: 0.91em;
   }
@@ -98,6 +98,7 @@
   }
   .sidebar span{
     display: none;
+    width: 6em;
   }
 
 
@@ -304,6 +305,7 @@
     position:fixed;
     position: sticky;
     top: 0em;
+    width: 100%;
   }
 
   /* path */
