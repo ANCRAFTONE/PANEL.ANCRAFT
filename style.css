@@ -49,7 +49,7 @@
   .sidebar .logobar{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     flex-direction: row;
     align-content: flex-start;
