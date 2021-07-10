@@ -29,7 +29,10 @@
   }
   @keyframes opennav{
     from {opacity: 0%;}
-    to {opacity: 100%;}
+    to {
+      opacity: 100%;
+      display:inline-block;
+    }
   }
   .opennav .sidebar {
     background-color: #61C2B3;
