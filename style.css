@@ -109,7 +109,14 @@
   }
   .opennav .sidebar span , .opennav .sidebar h3 {
     display: inline-block;
-    opacity: 100%;
+    animation: opennav 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes opennav {
+    to{
+      opacity: 100%;
+    }
   }
 
 
