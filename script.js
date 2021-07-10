@@ -142,7 +142,7 @@ function stats(name,price,by,img,store,sho,jsond){ //製作數據統計
 
 
 function sidebar() { //側邊導覽切換
-  $("body").toggleClass("mode");
+  $("body").toggleClass("opennav");
 };
 
 
