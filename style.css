@@ -99,8 +99,13 @@
   .sidebar .navl li a i,.sidebar .navl li a span{
     color: #f0ecff;
   }
+  .sidebar h3 {
+    font-size: 1em;
+  }
   .sidebar span, .sidebar h3 {
     display: none;
+  }
+  .sidebar span {
     width: 6em;
   }
 
