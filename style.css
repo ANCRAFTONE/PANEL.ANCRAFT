@@ -215,6 +215,7 @@
     justify-content: center;
     flex-direction: row;
     flex-wrap: nowrap;
+    text-shadow: 1px 1px 0.1em rgb(97 97 97 / 13%);
   }
   #ANCRAFT1.top .user ,#ANCRAFT1.p {
     display: flex;
@@ -267,6 +268,7 @@
   .stats .data div i{
     font-size: 6em;
     color: #4a4373;
+    text-shadow: 0.0131em 0.0131em 0.0131em #a593fc;
   }
   .stats .data div h3{
     font-size: 3em;
