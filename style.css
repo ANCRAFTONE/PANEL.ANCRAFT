@@ -43,6 +43,7 @@
     justify-content: flex-start;
     align-items: center;
     transition: 1.31s cubic-bezier(0.39, 0.575, 0.565, 1);
+    min-height: 100hv;
   }
   .sidebar .logobar{
     display: flex;
@@ -107,6 +108,7 @@
     position: absolute;
     display: none;
     opacity: 0%;
+    text-overflow: ellipsis;
   }
   .opennav .sidebar span , .opennav .sidebar h3 {
     display: inline-block;
