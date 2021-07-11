@@ -131,6 +131,7 @@ function stats(name,price,by,img,store,sho,jsond){ //製作數據統計
       $("#data_2").html(data['data_2']);
       $("#data_3").html(data['data_3']);
       $("#data_4").html(data['data_4']);
+      $("#data_5").html(data['data_5']);
     }
   });
 
@@ -138,7 +139,7 @@ function stats(name,price,by,img,store,sho,jsond){ //製作數據統計
   $("#data_2").text(Math.max(...price)); 
   $("#data_3").text(Math.max(...price)-Math.min(...price))
   $("#data_4").text(Math.min(...price));
-  $("#data_4").text(jsond.length);
+  $("#data_5").text(jsond.length);
 };//statsend 統計結束
 
 
