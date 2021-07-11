@@ -329,7 +329,7 @@
     display: grid;
     grid-template-columns: 131fr 31fr;
     grid-gap: 1.3em;
-    padding: 1em 1em 0em 1em;
+    padding: 0em 1em 0em 1em;
     /* justify-content: space-around; */
   }
   .l {
