@@ -321,7 +321,7 @@
     display: grid;
     grid-template-columns: repeat(5 , 1fr);
     grid-gap: 1.3em;
-    padding: 1em 1em 1em 1em;
+    padding: 1em 1em 0em 1em;
     /* justify-content: space-around; */
     width: 100%;
   } 
