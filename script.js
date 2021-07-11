@@ -114,6 +114,7 @@ function stats(name,price,by,img,store,sho,jsond){ //製作數據統計
     "data_2":"0",
     "data_3":"0",
     "data_4":"0",
+    "data_5":"0"
   };
   anime({ //統計數字自動增加動畫
     targets: data,
@@ -121,6 +122,7 @@ function stats(name,price,by,img,store,sho,jsond){ //製作數據統計
     data_2: Math.max(...price),
     data_3: Math.max(...price)-Math.min(...price),
     data_4: Math.min(...price),
+    data_5: jsond.length,
     round: 1,
     easing: 'easeInOutExpo',
     delay: 300,
@@ -131,10 +133,12 @@ function stats(name,price,by,img,store,sho,jsond){ //製作數據統計
       $("#data_4").html(data['data_4']);
     }
   });
+
   $("#data_1").text(jsond.length); //搜尋到的數量
   $("#data_2").text(Math.max(...price)); 
   $("#data_3").text(Math.max(...price)-Math.min(...price))
   $("#data_4").text(Math.min(...price));
+  $("#data_4").text(jsond.length);
 };//statsend 統計結束
 
 
