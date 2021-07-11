@@ -412,6 +412,7 @@
     border-bottom: #a593fc solid 0.3em;
     font-weight: 300;
     box-shadow: 0.03em 0.03em 0.3em 0px #131e3633;
+    margin: 0.131em;
   }
   .toolbar button:hover{
     border: #a593fc solid 0.3em;
