@@ -275,7 +275,7 @@
     font-weight: bold;
   }
   .stats .data div h5 {
-    font-size: 1em;
+    /* font-size: 1em; */
     letter-spacing: 0.1em;
   }
   .stats .footer {
