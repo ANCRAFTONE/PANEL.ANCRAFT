@@ -318,7 +318,7 @@
   /* 板塊設定 */
   .l1 {
     display: grid;
-    grid-template-columns: repeat(4 , 1fr);
+    grid-template-columns: repeat(5 , 1fr);
     grid-gap: 1.3em;
     padding: 1em 1em 1em 1em;
     /* justify-content: space-around; */
