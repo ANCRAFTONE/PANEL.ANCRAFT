@@ -42,7 +42,7 @@
     align-content: center;
     justify-content: flex-start;
     align-items: center;
-    transition: 1.31s cubic-bezier(0.39, 0.575, 0.565, 1);
+    transition: 0.131s cubic-bezier(0.39, 0.575, 0.565, 1);
     min-height: 100hv;
   }
   .sidebar .logobar {
@@ -117,7 +117,7 @@
   .opennav .sidebar span , .opennav .sidebar h3 {
     display: inline-block;
     animation: opennav 1.31s;
-    animation-delay: 1.31s;
+    animation-delay: 0s;
     animation-fill-mode: forwards;
     animation-timing-function: cubic-bezier(1, 0.15, 0.56, 1);
   }
@@ -230,7 +230,7 @@
 /* 區塊設定 */
 /* justify-content: space-around; */
 
-  .plot {display: grid;}
+  .plot {display: grid; grid-gap: 1.3em;}
     /* 區塊 */
   .block {
     border-radius: 0.91em;
@@ -266,7 +266,7 @@
     align-content: center;
   }
   .stats .data div i {
-    font-size: 6em;
+    font-size: 3em;
     color: #4a4373;
     text-shadow: 0.0131em 0.0131em 0.0131em #a593fc;
   }
@@ -328,14 +328,14 @@
     display: grid;
     grid-template-columns: 131fr 31fr;
     grid-gap: 1.3em;
-    padding: 1em 1em 1em 1em;
+    padding: 1em 1em 0em 1em;
     /* justify-content: space-around; */
   }
   .l {
     display: grid;
     grid-template-areas: '. .';
     grid-gap: 1.3em;
-    padding: 1em 1em 1em 1em;
+    padding: 0em 1em 1em 1em;
     /* justify-content: space-around; */
   }
 
@@ -410,6 +410,8 @@
     transition: 1.31s cubic-bezier(0.19, 1.1, 0.56, 1);
     border: #a493fc00 solid 0.3em;
     border-bottom: #a593fc solid 0.3em;
+    font-weight: 300;
+    box-shadow: 0.03em 0.03em 0.3em 0px #131e3633;
   }
   .toolbar button:hover{
     border: #a593fc solid 0.3em;
