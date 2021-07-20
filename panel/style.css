@@ -1,6 +1,6 @@
 
 
-      /*ancraft1*/
+      /*ancraftone*/
 *{
       margin: 0;
       padding: 0;
@@ -398,7 +398,7 @@
 
   
   .l .block{
-    min-height: 30em;
+    min-height: 31em;
   }
 
 
@@ -406,7 +406,7 @@
     width: 100%;
   }
   .t .block{
-    min-height: 30em;
+    min-height: 31em;
   }
 
   .toolbar {
@@ -416,12 +416,12 @@
     align-content: center;
     justify-content: space-between;
     align-items: center;
-    height: 3em;
+    height: 3.1em;
   }
   .toolbar button{
     width: 6em;
-    height: 3em;
-    border-radius: 0.3em;
+    height: 3.1em;
+    border-radius: 0.31em;
     border: none;
     background-color: #a493fc31;
     transition: 1.31s cubic-bezier(0.19, 1.1, 0.56, 1);
@@ -433,7 +433,7 @@
     color: #a593fc;
   }
   .toolbar button:hover{
-    border: #a593fc solid 0.3em;
+    border: #a593fc solid 0.31em;
     background-color: seashell;
     transform: 1s;
   }
