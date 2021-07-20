@@ -103,7 +103,7 @@
   }
   .sidebar .navl li .navtag {
     position: absolute ;
-    display: block;
+    display: none;
     opacity: 0;
     pointer-events: none;
     left: 3em;
@@ -113,7 +113,7 @@
   .sidebar .navl li a:hover + .navtag {
     opacity: 1;
     background-color: #4a4373;
-    display: table;
+    /* display: table; */
   }
   .sidebar h3 {
     font-size: 0.91em;
@@ -443,6 +443,12 @@
   @media screen and (max-width: 903px) {
     .l1 {
     grid-template-columns: repeat(3 , 1fr);
+    /* background-color: #4a4373; */
+    }
+  }
+  @media screen and (max-width: 563px) {
+    .l1 {
+    grid-template-columns: repeat(1 , 1fr);
     /* background-color: #4a4373; */
     }
   }
