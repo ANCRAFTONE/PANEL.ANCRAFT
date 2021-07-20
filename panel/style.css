@@ -445,6 +445,9 @@
     grid-template-columns: repeat(3 , auto);
     /* background-color: #4a4373; */
     }
+    .stats .footer {
+      padding: 0.31em;
+    }
   }
   @media screen and (max-width: 563px) {
     .l1 {
