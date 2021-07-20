@@ -437,3 +437,12 @@
     background-color: seashell;
     transform: 1s;
   }
+
+
+
+  @media screen and (max-width: 903px) {
+    .l1 {
+    grid-template-columns: repeat(3 , 1fr);
+    /* background-color: #4a4373; */
+    }
+  }
