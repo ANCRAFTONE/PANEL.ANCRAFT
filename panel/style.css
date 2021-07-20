@@ -358,7 +358,7 @@
 
   /* scrollbar */
   ::-webkit-scrollbar {
-    width: 0.3em;
+    width: 0.31em;
   }
 
   ::-webkit-scrollbar-track {
@@ -442,7 +442,7 @@
 
   @media screen and (max-width: 903px) {
     .l1 {
-    grid-template-columns: repeat(3 , 1fr);
+    grid-template-columns: repeat(3 , auto);
     /* background-color: #4a4373; */
     }
   }
