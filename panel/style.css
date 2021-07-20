@@ -98,23 +98,33 @@
     font-size: 1.3em;
     padding-right: 0.1em;
   }
-  .sidebar .navl li a i,.sidebar .navl li a span{
+  .sidebar .navl li a i , .sidebar .navl li a span{
     color: #f0ecff;
+  }
+  .sidebar .navl li .navtag {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    left: 3em;
+  }
+  .sidebar .navl li a:hover + .navtag {
+    opacity: 1;
+    background-color: #4a4373;
   }
   .sidebar h3 {
     font-size: 0.91em;
   }
-  .sidebar span {
+  .sidebar li a span {
     width: 6em;
   }
-  .sidebar span, .sidebar h3 {
+  .sidebar li a span, .sidebar h3 {
     position: absolute;
     display: none;
     opacity: 0%;
     text-overflow: ellipsis;
-    left: 11em;
+    left: 3em;
   }
-  .opennav .sidebar span , .opennav .sidebar h3 {
+  .opennav .sidebar li a span , .opennav .sidebar h3 {
     display: inline-block;
     animation: opennav 1.31s;
     animation-delay: 0s;
@@ -376,7 +386,7 @@
   .path h1 {
     font-weight: 600;
   }
-  .sidebar .navl li:hover {
+  .sidebar .navl li a:hover {
     transition: cubic-bezier(0.23, 1, 0.320, 1);
     background-color:rgb(79, 216, 136);
     transition: 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
