@@ -102,14 +102,18 @@
     color: #f0ecff;
   }
   .sidebar .navl li .navtag {
-    position: absolute;
+    position: absolute ;
+    display: block;
     opacity: 0;
     pointer-events: none;
     left: 3em;
+    transform: translateX(30em);
+    z-index: 100;
   }
   .sidebar .navl li a:hover + .navtag {
     opacity: 1;
     background-color: #4a4373;
+    display: table;
   }
   .sidebar h3 {
     font-size: 0.91em;
