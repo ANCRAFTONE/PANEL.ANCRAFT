@@ -440,18 +440,23 @@
 
 
 
-  @media screen and (max-width: 903px) {
+  @media (max-width: 1045px) {
     .l1 {
-    grid-template-columns: repeat(3 , auto);
-    /* background-color: #4a4373; */
+      
+      grid-template-columns: repeat(3 , auto);
+      /* background-color: #4a4373; */
     }
     .stats .footer {
       padding: 0.31em;
     }
   }
-  @media screen and (max-width: 563px) {
+  
+  @media (max-width: 723px) {
     .l1 {
-    grid-template-columns: repeat(1 , 1fr);
-    /* background-color: #4a4373; */
+     grid-template-columns: repeat(1 , 1fr);
+     /* background-color: #4a4373; */
+    }
+    .toolbar {
+      flex-direction: column;
     }
   }
