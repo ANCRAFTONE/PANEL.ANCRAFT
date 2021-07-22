@@ -23,12 +23,12 @@
   } */
 
   /* 側邊導覽nav */
-  .opennav .sidebar {
+  .opennav .navmenubar .menu {
     background-color: #61C2B3;
     text-shadow: 1px 1px 0.1em rgb(97 97 97 / 13.1%);
     width: 13.1em;
   }
-  .sidebar {
+  .navmenubar .menu {
     position: relative;
     display: flex;
     padding: 0em;
@@ -45,7 +45,7 @@
     transition: 0.131s cubic-bezier(0.39, 0.575, 0.565, 1);
     min-height: 100hv;
   }
-  .sidebar .logobar {
+  .navmenubar .menu .head {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -58,13 +58,13 @@
     font-size: 1.6em;
     font-weight: bolder;
   }
-  .opennav .sidebar .logobar {
+  .opennav .navmenubar .menu .head {
     min-height: 3em;
   }
-  .sidebar .logobar i {
+  .navmenubar .menu .head i {
     font-size: 1.3em;
   }
-  .sidebar .navl{
+  .navmenubar .menu .navl{
     font-size: 1em;
     display: flex;
     flex-wrap: wrap;
@@ -72,7 +72,7 @@
     align-content: space-around;
     flex-direction: column;
   }
-  .sidebar .navl li{
+  .navmenubar .menu .navl li{
     height: 3em;
     display: flex;
     flex-direction: row;
@@ -84,7 +84,7 @@
     transition: 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
     border-radius: 0em;
   }
-  .sidebar .navl li a{
+  .navmenubar .menu .navl li a{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -94,14 +94,14 @@
     width: 100%;
     padding: 0.91em;
   }
-  .sidebar .navl li a i{
+  .navmenubar .menu .navl li a i{
     font-size: 1.3em;
     padding-right: 0.1em;
   }
-  .sidebar .navl li a i , .sidebar .navl li a span{
+  .navmenubar .menu .navl li a i , .navmenubar .menu .navl li a span{
     color: #f0ecff;
   }
-  .sidebar .navl li .navtag {
+  .navmenubar .menu .navl li .navtag {
     position: absolute ;
     display: none;
     opacity: 0;
@@ -110,25 +110,25 @@
     transform: translateX(30em);
     z-index: 100;
   }
-  .sidebar .navl li a:hover + .navtag {
+  .navmenubar .menu .navl li a:hover + .navtag {
     opacity: 1;
     background-color: #4a4373;
     /* display: table; */
   }
-  .sidebar h3 {
+  .navmenubar .menu h3 {
     font-size: 0.91em;
   }
-  .sidebar li a span {
+  .navmenubar .menu li a span {
     width: 6em;
   }
-  .sidebar li a span, .sidebar h3 {
+  .navmenubar .menu li a span, .navmenubar .menu h3 {
     position: absolute;
     display: none;
     opacity: 0%;
     text-overflow: ellipsis;
     left: 3em;
   }
-  .opennav .sidebar li a span , .opennav .sidebar h3 {
+  .opennav .navmenubar .menu li a span , .opennav .navmenubar .menu h3 {
     display: inline-block;
     animation: opennav 1.31s;
     animation-delay: 0s;
@@ -154,8 +154,8 @@
 
 
 
-  /* 主頁 */
-  #ANCRAFT1.main{
+  /* 主要內容 */
+  #ANCRAFTONE.main{
     position: relative;
     height: 100%;
     background: #f0ecff;
@@ -163,7 +163,7 @@
     
   }
   /* 導覽選單 */
-  #ANCRAFT1.top {
+  #ANCRAFTONE.top {
     display: flex;
     align-items: center;
     position: absolute;
@@ -183,7 +183,7 @@
     border-radius: 0em;
     font-weight: bold;
   }
-  #ANCRAFT1.top .title {
+  #ANCRAFTONE.top .title {
     display: flex;
     padding-left: 0em;
     font-size: 1.91em;
@@ -191,7 +191,7 @@
     color: rgb(122, 131, 150);
     font-weight: 600;
   }
-  #ANCRAFT1.top .searchbar { 
+  #ANCRAFTONE.top .searchbar { 
     height: auto;
     width: 31%;
     display: grid;
@@ -202,7 +202,7 @@
     position: relative;
     grid-template-columns: auto 3em;
   }
-  #ANCRAFT1.top .searchbar input {
+  #ANCRAFTONE.top .searchbar input {
     height: 100%;
     width: 100%;
     border-radius: 0.31em;
@@ -214,7 +214,7 @@
     font-weight: 131;
     text-shadow: 1px 1px 0.1em rgb(97 97 97 / 13%);
   }
-  #ANCRAFT1.top .searchbar .get {
+  #ANCRAFTONE.top .searchbar .get {
     /* position: absolute;
     right: -0.7em;
     top: 50%;
@@ -232,7 +232,7 @@
     flex-wrap: nowrap;
     text-shadow: 1px 1px 0.1em rgb(97 97 97 / 13%);
   }
-  #ANCRAFT1.top .user ,#ANCRAFT1.p {
+  #ANCRAFTONE.top .user ,#ANCRAFTONE.p {
     display: flex;
     top: auto;
     align-items: center;
@@ -245,7 +245,7 @@
 /* 區塊設定 */
 /* justify-content: space-around; */
 
-  .plot {display: grid; grid-gap: 1.3em;}
+  #ANCRAFTONE.plot {display: grid; grid-gap: 1.3em;}
     /* 區塊 */
   .block {
     border-radius: 0.91em;
@@ -382,15 +382,15 @@
   }
 
   /* path */
-  .path {
+  #ANCRAFTONE .path {
     color: #0000007d;
     font-size: 1em;
     padding: 1em;
   }
-  .path h1 {
+  #ANCRAFTONE .path h1 {
     font-weight: 600;
   }
-  .sidebar .navl li a:hover {
+  .navmenubar .menu .navl li a:hover {
     transition: cubic-bezier(0.23, 1, 0.320, 1);
     background-color:rgb(79, 216, 136);
     transition: 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
@@ -409,7 +409,7 @@
     min-height: 31em;
   }
 
-  .toolbar {
+  #ANCRAFTONE .path .toolbar {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -418,7 +418,7 @@
     align-items: center;
     height: 3.1em;
   }
-  .toolbar button{
+  #ANCRAFTONE .path .toolbar button{
     width: 6em;
     height: 3.1em;
     border-radius: 0.31em;
@@ -432,10 +432,18 @@
     margin: 0.131em;
     color: #a593fc;
   }
-  .toolbar button:hover{
+  #ANCRAFTONE .path .toolbar button:hover{
     border: #a593fc solid 0.31em;
     background-color: seashell;
     transform: 1s;
+  }
+  #ANCRAFTONE .path .toolbar .savebutton {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
   }
 
 
@@ -456,7 +464,7 @@
      grid-template-columns: repeat(1 , 1fr);
      /* background-color: #4a4373; */
     }
-    .toolbar {
+    #ANCRAFTONE .path .toolbar {
       flex-direction: column;
     }
   }
