@@ -43,7 +43,7 @@
     justify-content: flex-start;
     align-items: center;
     transition: 0.131s cubic-bezier(0.39, 0.575, 0.565, 1);
-    min-height: 100hv;
+    min-height: 100vh;
   }
   .navmenubar .menu .head {
     display: flex;
@@ -126,7 +126,7 @@
     display: none;
     opacity: 0%;
     text-overflow: ellipsis;
-    left: 3em;
+    left: 3.1em;
   }
   .opennav .navmenubar .menu li a span , .opennav .navmenubar .menu h3 {
     display: inline-block;
@@ -139,10 +139,13 @@
   @keyframes opennav {
     31%{
       position: relative;
+      left: 0em;
+      opacity: 100%;
     }
     91%{
       position: relative;
       left: 0em;
+      opacity: 91%;
     }
     100%{
       position: relative;
@@ -416,7 +419,7 @@
     align-content: center;
     justify-content: space-between;
     align-items: center;
-    height: 3.1em;
+    min-height: 3.1em;
   }
   #ANCRAFTONE .path .toolbar button{
     width: 6em;
@@ -440,7 +443,7 @@
   #ANCRAFTONE .path .toolbar .savebutton {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap-reverse;
     align-content: center;
     align-items: center;
     justify-content: center;
@@ -461,7 +464,7 @@
   
   @media (max-width: 723px) {
     .l1 {
-     grid-template-columns: repeat(1 , 1fr);
+     grid-template-columns: repeat(2 , 1fr);
      /* background-color: #4a4373; */
     }
     #ANCRAFTONE .path .toolbar {
