@@ -237,11 +237,11 @@
     transition: 1.31s cubic-bezier(0.19, 1.1, 0.56, 1);
   }
   #ANCRAFTONE.top .searchbar .get:hover {
-    text-shadow: 3px 1px 0.1em rgb(97 97 97 / 91%);
+    text-shadow: 0px 0px 3em rgb(97 97 97 / 91%);
   }
   #ANCRAFTONE.top .searchbar .get:active {
-    color: #fff;
-    background-color: rgb(13, 131, 131);
+    color: rgb(13, 131, 131);
+    background-color: #E0EAFF00;
   }
   #ANCRAFTONE.top .user ,#ANCRAFTONE.p {
     display: flex;
