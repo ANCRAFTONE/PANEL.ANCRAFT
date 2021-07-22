@@ -234,6 +234,14 @@
     flex-direction: row;
     flex-wrap: nowrap;
     text-shadow: 1px 1px 0.1em rgb(97 97 97 / 13%);
+    transition: 1.31s cubic-bezier(0.19, 1.1, 0.56, 1);
+  }
+  #ANCRAFTONE.top .searchbar .get:hover {
+    text-shadow: 3px 1px 0.1em rgb(97 97 97 / 91%);
+  }
+  #ANCRAFTONE.top .searchbar .get:active {
+    color: #fff;
+    background-color: rgb(13, 131, 131);
   }
   #ANCRAFTONE.top .user ,#ANCRAFTONE.p {
     display: flex;
@@ -438,7 +446,6 @@
   #ANCRAFTONE .path .toolbar button:hover{
     border: #a593fc solid 0.31em;
     background-color: seashell;
-    transform: 1s;
   }
   #ANCRAFTONE .path .toolbar .savebutton {
     display: flex;
