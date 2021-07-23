@@ -293,9 +293,15 @@
     align-content: center;
   }
   .stats .data div i {
-    font-size: 3em;
+    font-size:3.1em;
     color: #4a4373;
     text-shadow: 0.0131em 0.0131em 0.0131em #a593fc;
+    /* background-color: #a593fc; */
+    padding: 0.3em;
+    /* border-radius: 0.3em;
+    border: #61C2B3;
+    border-width: 0.131em;
+    border-style: dashed ; */
   }
   .stats .data div h3 {
     font-size: 3em;
