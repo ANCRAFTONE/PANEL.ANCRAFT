@@ -429,7 +429,7 @@
     align-items: center;
     min-height: 3.1em;
   }
-  #ANCRAFTONE .path .toolbar button{
+  #ANCRAFTONE .path .toolbar .savebutton button{
     width: 6em;
     height: 3.1em;
     border-radius: 0.31em;
@@ -440,10 +440,10 @@
     border-bottom: #a593fc solid 0.3em;
     font-weight: 700;
     box-shadow: 0.03em 0.03em 0.3em 0px #131e3633;
-    margin: 0.131em;
+    margin: 0.131em 0.31em 0.131em 0.31em;
     color: #a593fc;
   }
-  #ANCRAFTONE .path .toolbar button:hover{
+  #ANCRAFTONE .path .toolbar .savebutton button:hover{
     border: #a593fc solid 0.31em;
     background-color: seashell;
   }
