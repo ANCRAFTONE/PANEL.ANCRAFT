@@ -294,15 +294,15 @@
   }
   .stats .data div i {
     font-size:3.1em;
-    /* color: #4a4373;
-    text-shadow: 0.0131em 0.0131em 0.0131em #a593fc;
-    background-color: #a593fc; */
+    color: #ffffff;
+    BOX-shadow: 0.0131em 0.0131em 0.0131em #a593fc;
+    background-color: #a593fc;
     padding: 0.3em;
     font-weight: 300;
-    /* border-radius: 0.3em;
-    border: #61C2B3;
-    border-width: 0.131em;
-    border-style: dashed ; */
+    border-radius: 0.3em;
+    /* border: #61C2B3; */
+    /* border-width: 0.131em; */
+    /* border-style: dashed ; */
   }
   .stats .data div h3 {
     font-size: 3em;
