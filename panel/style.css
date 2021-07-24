@@ -136,13 +136,14 @@
     animation-fill-mode: forwards;
     position: relative;
     animation-timing-function: cubic-bezier(1, 0.15, 0.56, 1);
-    opacity: 100%;
+    opacity: 1;
+    left: 0em;
   }
   @keyframes opennav {
     31%{
       position: relative;
       left: 0em;
-      opacity: 100%;
+      opacity: 1;
     }
     91%{
       position: relative;
@@ -152,7 +153,7 @@
     100%{
       position: relative;
       left: 0em;
-      opacity: 100%;
+      opacity: 1;
     }
   }
 
