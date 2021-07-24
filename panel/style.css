@@ -66,6 +66,10 @@
   .navmenubar .menu .head i {
     font-size: 1.3em;
   }
+  .navmenubar .menu .head h3 {
+    font-size: 0.91em;
+    letter-spacing: 0.131em;
+  }
   .navmenubar .menu .navl{
     font-size: 1em;
     display: flex;
@@ -121,9 +125,6 @@
     background-color: #4a4373;
     /* display: table; */
   }
-  .navmenubar .menu .head h3 {
-    font-size: 0.91em;
-  }
   .navmenubar .menu .navl li a span {
     width: 6em;
   }
@@ -131,7 +132,7 @@
     position: absolute;
     display: none;
     opacity: 0%;
-    text-overflow: ellipsis;
+    text-overflow: unset;
     left: 3.1em;
     transition: 131ms cubic-bezier(1, 0.31, 0.91, 1);
   }
@@ -153,7 +154,6 @@
   }
   @keyframes opennav {
     0%{
-      position: absolute;
       left:3.1em;
       opacity: 0%;
     }
@@ -509,3 +509,4 @@
      /* background-color: #4a4373; */
     }
   }
+
