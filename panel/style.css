@@ -94,6 +94,10 @@
     justify-content: space-around;
     width: 100%;
     padding: 0.91em;
+    transition: 0.131s cubic-bezier(1, 0.31, 0.91, 1);
+  }
+  .navmenubar .menu .navl li a:hover {
+    background-color:rgba(51, 163, 89, 0.91);
   }
   .navmenubar .menu .navl li a i{
     font-size: 1.3em;
@@ -147,7 +151,8 @@
   }
   @keyframes opennav {
     0%{
-      left:3.1em
+      left:3.1em;
+      opacity: 0%;
     }
     31%{
       position: relative;
@@ -420,11 +425,6 @@
   }
   #ANCRAFTONE .path h1 {
     font-weight: 600;
-  }
-  .navmenubar .menu .navl li a:hover {
-    transition: cubic-bezier(0.23, 1, 0.320, 1);
-    background-color:rgb(79, 216, 136);
-    transition: 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
   }
 
   #ANCRAFTONE .path .toolbar {
