@@ -503,6 +503,11 @@
     #ANCRAFTONE .path .toolbar {
       flex-direction: column;
     }
+    #ANCRAFTONE.top .searchbar {
+      order: 1;
+      width: 100%;
+      transition: 0.131s cubic-bezier(1, 0.31, 0.91, 1);
+    }
   }
     
   @media (max-width: 549px) {
