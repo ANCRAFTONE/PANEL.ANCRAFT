@@ -128,18 +128,27 @@
     opacity: 0%;
     text-overflow: ellipsis;
     left: 3.1em;
+    transition: 131ms cubic-bezier(1, 0.31, 0.91, 1);
   }
-  .opennav .navmenubar .menu .navl li a span , .opennav .navmenubar .menu .head h3 {
+  .opennav .navmenubar .menu .head h3 {
+    opacity: 1;
+    position: relative;
+    display: inline-block;
+    left: 0em;
+  }
+  .opennav .navmenubar .menu .navl li a span {
     display: inline-block;
     animation: opennav 1.31s;
     animation-delay: 0s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; 
     position: relative;
-    animation-timing-function: cubic-bezier(1, 0.15, 0.56, 1);
+    animation-timing-function: cubic-bezier(1, 0.31, 0.91, 1); 
     opacity: 1;
-    left: 0em;
   }
   @keyframes opennav {
+    0%{
+      left:3.1em
+    }
     31%{
       position: relative;
       left: 0em;
