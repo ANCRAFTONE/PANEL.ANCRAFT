@@ -16,7 +16,6 @@
     grid-template-columns: max-content auto;
     /* grid-template-columns: 3% auto; */
   }
-
   /* .opennav{
     min-height: 100vh;
     display: grid;
@@ -120,7 +119,7 @@
     pointer-events: none;
     left: 3em;
     transform: translateX(30em);
-    z-index: 100;
+    z-index: 131;
   }
   .navmenubar .menu .navl li a:hover + .navtag {
     opacity: 1;
@@ -138,7 +137,7 @@
     left: 3.1em;
     transition: 131ms cubic-bezier(1, 0.31, 0.91, 1);
   }
-  
+  /* opennav */
   .opennav .navmenubar .menu .head h3 {
     opacity: 1;
     position: relative;
@@ -372,7 +371,52 @@
     letter-spacing: 0.1em;
   }
 
+  /* path */
+  #ANCRAFTONE .path {
+    color: #0000007d;
+    font-size: 1em;
+    padding: 1em;
+  }
+  #ANCRAFTONE .path h1 {
+    font-weight: 600;
+  }
 
+  #ANCRAFTONE .path .toolbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 3.1em;
+  }
+  #ANCRAFTONE .path .toolbar .savebutton button{
+    width: 6em;
+    height: 3.1em;
+    border-radius: 0.31em;
+    border: none;
+    background-color: #a493fc31;
+    transition: 1.31s cubic-bezier(0.19, 1.1, 0.56, 1);
+    border: #a493fc00 solid 0.3em;
+    border-bottom: #a593fc solid 0.3em;
+    font-weight: 700;
+    box-shadow: 0.03em 0.03em 0.3em 0em #131e3633;
+    margin: 0.131em 0.31em 0.131em 0.31em;
+    color: #a593fc;
+    letter-spacing: 0.131em;
+  }
+  #ANCRAFTONE .path .toolbar .savebutton button:hover{
+    border: #a593fc solid 0.31em;
+    background-color: seashell;
+  }
+  #ANCRAFTONE .path .toolbar .savebutton {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
 
   /* 板塊設定 */
   .l1 {
@@ -423,52 +467,7 @@
     width: 100%;
   }
 
-  /* path */
-  #ANCRAFTONE .path {
-    color: #0000007d;
-    font-size: 1em;
-    padding: 1em;
-  }
-  #ANCRAFTONE .path h1 {
-    font-weight: 600;
-  }
 
-  #ANCRAFTONE .path .toolbar {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 3.1em;
-  }
-  #ANCRAFTONE .path .toolbar .savebutton button{
-    width: 6em;
-    height: 3.1em;
-    border-radius: 0.31em;
-    border: none;
-    background-color: #a493fc31;
-    transition: 1.31s cubic-bezier(0.19, 1.1, 0.56, 1);
-    border: #a493fc00 solid 0.3em;
-    border-bottom: #a593fc solid 0.3em;
-    font-weight: 700;
-    box-shadow: 0.03em 0.03em 0.3em 0px #131e3633;
-    margin: 0.131em 0.31em 0.131em 0.31em;
-    color: #a593fc;
-    letter-spacing: 0.131em;
-  }
-  #ANCRAFTONE .path .toolbar .savebutton button:hover{
-    border: #a593fc solid 0.31em;
-    background-color: seashell;
-  }
-  #ANCRAFTONE .path .toolbar .savebutton {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-  }
   
   .l .block{
     min-height: 31em;
