@@ -261,7 +261,7 @@
   .block {
     border-radius: 0.91em;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0 0.3em 1em rgba(97, 97, 97, 0.3);
+    box-shadow: 0.0131em 0.0131em 0.131em 0em #3f395e73;
     overflow: hidden;
     margin: 0em;
     /* padding-bottom: 3em; */
@@ -295,7 +295,7 @@
   .stats .data div i {
     font-size:3.1em;
     color: #ffffff;
-    BOX-shadow:  inset 0.0131em 0.0131em 0.131em 0em #3f395e73;
+    BOX-shadow: inset 0.0131em 0.0131em 0.131em 0em #3f395e73, inset -0.0131em -0.0131em 0.0131em 0em #f0ecff;
     background-color: #a593fc;
     padding: 0.131em;
     font-weight: 300;
