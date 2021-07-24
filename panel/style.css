@@ -10,7 +10,7 @@
       box-sizing: border-box;
       list-style-type:none;
   }
-  body {
+  main {
     min-height: 100vh;
     display: grid;
     grid-template-columns: max-content auto;
@@ -418,19 +418,6 @@
     transition: 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
   }
 
-  
-  .l .block{
-    min-height: 31em;
-  }
-
-
-  .t {
-    width: 100%;
-  }
-  .t .block{
-    min-height: 31em;
-  }
-
   #ANCRAFTONE .path .toolbar {
     display: flex;
     flex-direction: row;
@@ -453,6 +440,7 @@
     box-shadow: 0.03em 0.03em 0.3em 0px #131e3633;
     margin: 0.131em 0.31em 0.131em 0.31em;
     color: #a593fc;
+    letter-spacing: 0.131em;
   }
   #ANCRAFTONE .path .toolbar .savebutton button:hover{
     border: #a593fc solid 0.31em;
@@ -466,6 +454,19 @@
     align-items: center;
     justify-content: center;
   }
+  
+  .l .block{
+    min-height: 31em;
+  }
+
+
+  .t {
+    width: 100%;
+  }
+  .t .block{
+    min-height: 31em;
+  }
+
 
 
 
