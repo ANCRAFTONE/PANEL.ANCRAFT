@@ -116,20 +116,20 @@
     background-color: #4a4373;
     /* display: table; */
   }
-  .navmenubar .menu h3 {
+  .navmenubar .menu .navl h3 {
     font-size: 0.91em;
   }
-  .navmenubar .menu li a span {
+  .navmenubar .menu .navl li a span {
     width: 6em;
   }
-  .navmenubar .menu li a span, .navmenubar .menu h3 {
+  .navmenubar .menu .navl li a span, .navmenubar .menu .navl h3 {
     position: absolute;
     display: none;
     opacity: 0%;
     text-overflow: ellipsis;
     left: 3.1em;
   }
-  .opennav .navmenubar .menu li a span , .opennav .navmenubar .menu h3 {
+  .opennav .navmenubar .menu .navl li a span , .opennav .navmenubar .menu .navl h3 {
     display: inline-block;
     animation: opennav 1.31s;
     animation-delay: 0s;
