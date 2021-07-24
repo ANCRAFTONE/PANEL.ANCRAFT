@@ -6,7 +6,7 @@
 利用HTML CSS JS與API運作，適合多種系統、平台的管理面板。
 可快速使用，輕巧，跨平台支援。
 
-- °。 [`adoring-ptolemy-b3167e`](net.netlify.app)
+- °。 [`adoring-ptolemy-b3167e`](http://net.netlify.app)
 
 # 示範
 ![](https://i.imgur.com/qPMhcY3.png)
