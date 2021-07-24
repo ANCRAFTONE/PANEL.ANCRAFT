@@ -16,13 +16,14 @@
     grid-template-columns: max-content auto;
     /* grid-template-columns: 3% auto; */
   }
+
   /* .opennav{
     min-height: 100vh;
     display: grid;
     grid-template-columns: 11% auto;
   } */
 
-  /* 側邊導覽nav */
+  /* nav menu bar */
   .opennav .navmenubar .menu {
     background-color: #61C2B3;
     text-shadow: 1px 1px 0.1em rgb(97 97 97 / 13.1%);
@@ -148,9 +149,11 @@
     position: relative;
     animation-timing-function: cubic-bezier(1, 0.31, 0.91, 1); 
     opacity: 1;
+    left: 0em;
   }
   @keyframes opennav {
     0%{
+      position: absolute;
       left:3.1em;
       opacity: 0%;
     }
