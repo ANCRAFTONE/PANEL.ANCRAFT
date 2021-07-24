@@ -44,6 +44,7 @@
     align-items: center;
     transition: 0.131s cubic-bezier(0.39, 0.575, 0.565, 1);
     min-height: 100vh;
+    z-index: 131;
   }
   .navmenubar .menu .head {
     display: flex;
@@ -178,7 +179,7 @@
     justify-content: space-between;
     align-content: center;
     padding: 0.31em 1.3em 0.31em 1.3em;
-    z-index: 9131;
+    z-index: 91;
     width: 100%;
     top: 0em;
     flex-wrap: wrap;
@@ -484,5 +485,12 @@
     }
     #ANCRAFTONE .path .toolbar {
       flex-direction: column;
+    }
+  }
+    
+  @media (max-width: 549px) {
+    .l1 {
+     grid-template-columns: repeat(1 , 1fr);
+     /* background-color: #4a4373; */
     }
   }
