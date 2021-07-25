@@ -6,10 +6,40 @@
 利用HTML CSS JS與API運作，適合多種系統、平台的管理面板。
 可快速使用，輕巧，跨平台支援。
 
-- °。 [`adoring-ptolemy-b3167e`](http://net.netlify.app)
+- °。 [`adoring-ptolemy-b3167e`](net.netlify.app)
 
 # 示範
 ![](https://i.imgur.com/qPMhcY3.png)
+
+# 結構
+```bash=
+admin                       
+├─ API                      
+│  ├─ main.py               
+│  ├─ start.anc             
+│  └─ ViA.json              
+├─ NET                      
+│  └─ asset                 
+│     └─ panel              
+│        ├─ page            
+│        │  ├─ list.css     
+│        │  ├─ list.html    
+│        │  ├─ list.js      
+│        │  └─ status.html  
+│        ├─ content.js      
+│        ├─ index.html      
+│        ├─ Reveal.js       
+│        ├─ script.js       
+│        └─ style.css       
+├─ test                     
+│  ├─ script.js             
+│  ├─ style.css             
+│  └─ test.dash.html        
+├─ index.html               
+├─ netlify.toml             
+└─ README.md                
+
+```
 
 
 # 設計
@@ -31,3 +61,6 @@
 #### 跨平台
 
 在行動設備、桌面平台、嵌入式系統中都能啟用的功能
+
+
+# 翻譯
