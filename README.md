@@ -1,16 +1,32 @@
 # admin
 
+- 。ₒº◦°。 [`adoring-ptolemy-b3167e`](http://net.netlify.app)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/aed0736c-40f7-41bf-afe6-4a23a6788dd2/deploy-status)](https://app.netlify.com/sites/net/deploys)
 
+<img src="https://i.imgur.com/qwnfFoe.png" alt="drawing" width="200" style="padding:1em;"/>
+![](https://i.imgur.com/ELfgfUX.png)
 
 利用HTML CSS JS與API運作，適合多種系統、平台的管理面板。
-可快速使用，輕巧，跨平台支援。
+快速使用，輕巧，跨平台支援。
+將數據可視化，內容管理，系統管理工具集成一體，在面板中輕鬆調整各項參數。
 
 
-- ₒ。º◦° [`adoring-ptolemy-b3167e`](http://net.netlify.app)
+
+
+
 
 # 示範
 ![](https://i.imgur.com/qPMhcY3.png)
+dashboard^
+
+
+# 開始
+- 下載專案>>
+- 安裝python
+- 添加docker
+- 使用(vscode)開啟config.yml
+
+
 
 # 結構
 ```bash=
