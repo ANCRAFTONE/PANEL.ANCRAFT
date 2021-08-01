@@ -529,3 +529,8 @@
     }
   }
 
+  @media (max-width: 413px) {
+    #ANCRAFTONE.top .title {
+      font-size: 1em;
+    }
+  }
