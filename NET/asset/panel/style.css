@@ -398,7 +398,9 @@
     min-height: 3.1em;
   }
   #ANCRAFTONE .path .toolbar .savebutton button{
-    width: 6em;
+    max-width: 6em;
+    width: 16vw;
+    min-width: 3.91em;
     height: 3.1em;
     border-radius: 0.31em;
     border: none;
@@ -521,6 +523,9 @@
     .l1 {
      grid-template-columns: repeat(1 , 1fr);
      /* background-color: #4a4373; */
+    }
+    #ANCRAFTONE .path .toolbar .savebutton button {
+      letter-spacing: 0;
     }
   }
 
