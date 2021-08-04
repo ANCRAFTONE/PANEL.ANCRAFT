@@ -232,14 +232,14 @@
     height: 100%;
     width: 100%;
     /* border-radius: 0.31em; */
-    font-size: 0.91em;
+    font-size: 0.91131em;
     border: none;
     padding: 0.31em 0em 0.31em 0.913em;
     background-color: #E0EAFF00;
-    color: rgb(7, 7, 7);
-    font-weight: 131;
+    /* font-weight: 131; */
     text-shadow: 1px 1px 0.1em rgb(97 97 97 / 13%);
-    font-size: 1.31em;
+    letter-spacing: 0.131em;
+    color: rgb(7, 7, 7);
   }
   #ANCRAFTONE.top .searchbar .get {
     /* position: absolute;
@@ -561,7 +561,6 @@
     #ANCRAFTONE.top .searchbar input {
       background-color: #e0eaff1a;
       color: #fff;
-      font-size: 1.31em;
     }
     #ANCRAFTONE .path .toolbar .savebutton button:hover {
       background-color: #00000000;
