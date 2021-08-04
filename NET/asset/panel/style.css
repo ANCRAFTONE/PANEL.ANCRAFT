@@ -556,4 +556,9 @@
     #ANCRAFTONE.top {
       background-color: #344162;
     }
+    #ANCRAFTONE.top .searchbar input {
+      background-color: #e0eaff1a;
+      color: #fff;
+      font-weight: bold;
+    }
   }
