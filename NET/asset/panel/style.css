@@ -542,16 +542,16 @@
 
   @media screen {
     .block{
-      background-color: #3b3a5a;
+      background-color: #33334e57;
     }
     #ANCRAFTONE.main {
-      background-color: #1a1535;
+      background-color: #1f2328;
     }
     #ANCRAFTONE .path h1 {
       color: #635e59;
     }
     .stats .data div h3, .stats .data div h5{
-      color: rgb(122, 132, 150);
+      color: rgb(131, 150, 187);
     }
     #ANCRAFTONE.top {
       background-color: #344162;
