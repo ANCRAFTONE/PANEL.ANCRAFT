@@ -239,6 +239,7 @@
     color: rgb(7, 7, 7);
     font-weight: 131;
     text-shadow: 1px 1px 0.1em rgb(97 97 97 / 13%);
+    font-size: 1.31em;
   }
   #ANCRAFTONE.top .searchbar .get {
     /* position: absolute;
@@ -551,14 +552,18 @@
       color: #635e59;
     }
     .stats .data div h3, .stats .data div h5{
-      color: rgb(131, 150, 187);
+      color: rgb(131, 153, 187);
     }
     #ANCRAFTONE.top {
       background-color: #344162;
+      color: rgb(131, 153, 187);
     }
     #ANCRAFTONE.top .searchbar input {
       background-color: #e0eaff1a;
       color: #fff;
-      font-weight: bold;
+      font-size: 1.31em;
+    }
+    #ANCRAFTONE .path .toolbar .savebutton button:hover {
+      background-color: #00000000;
     }
   }
