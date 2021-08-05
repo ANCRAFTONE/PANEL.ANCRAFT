@@ -153,14 +153,14 @@ function template() {
   };
   anime({ //統計數字自動增加動畫
     targets: data,
-    data_1: Math.random() * 1000,
-    data_2: Math.random() * 1000,
-    data_3: Math.random() * 1000,
-    data_4: Math.random() * 1000,
-    data_5: Math.random() * 1000,
+    data_1: Math.random() * 10000,
+    data_2: Math.random() * 10000,
+    data_3: Math.random() * 10000,
+    data_4: Math.random() * 10000,
+    data_5: Math.random() * 10000,
     round: 1,
     easing: 'easeInOutExpo',
-    delay: 300,
+    delay: 131,
     update: function(){
       $("#data_1").html(data['data_1']);
       $("#data_2").html(data['data_2']);
