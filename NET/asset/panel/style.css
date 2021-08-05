@@ -285,7 +285,7 @@
     /* 區塊 */
   .block {
     /* border-radius: 0.91em; */
-    border-radius: 0.131em;
+    border-radius: 0.31em;
     background-color: rgb(255, 255, 255);
     box-shadow: 0.0131em 0.0131em 0.131em 0em #3f395e73;
     overflow: hidden;
@@ -303,7 +303,7 @@
     height: auto;
     flex-direction: row;
     justify-content: space-around;
-    padding: 0.31em 1em 0.31em 1em;
+    padding: 0.31em 0.131em 0.31em 0.131em;
     align-items: center;
     color: rgb(99, 99, 99);
     flex-wrap: wrap-reverse;
@@ -568,5 +568,8 @@
     }
     #ANCRAFTONE .path .toolbar .savebutton button:hover {
       background-color: #00000000;
+    }
+    .stats .data div i {
+      background-color: #344161;
     }
   }
