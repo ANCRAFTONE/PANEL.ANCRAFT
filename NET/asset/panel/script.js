@@ -22,6 +22,7 @@ $.ajax({
   },
   error: function (thrownError) {
     console.log(thrownError); //列印錯誤訊息
+    template()
   }
 });
 
@@ -110,11 +111,11 @@ function stats(name,price,by,img,store,sho,jsond){ //製作數據統計
   });
 
   var data = {
-    "data_1":"0",
-    "data_2":"0",
-    "data_3":"0",
-    "data_4":"0",
-    "data_5":"0"
+    "data_1":"000",
+    "data_2":"000",
+    "data_3":"000",
+    "data_4":"000",
+    "data_5":"000"
   };
   anime({ //統計數字自動增加動畫
     targets: data,
@@ -142,6 +143,33 @@ function stats(name,price,by,img,store,sho,jsond){ //製作數據統計
   $("#data_5").text(jsond.length);
 };//statsend 統計結束
 
+function template() {
+  var data = {
+    "data_1":"000",
+    "data_2":"000",
+    "data_3":"000",
+    "data_4":"000",
+    "data_5":"000"
+  };
+  anime({ //統計數字自動增加動畫
+    targets: data,
+    data_1: Math.random() * 1000,
+    data_2: Math.random() * 1000,
+    data_3: Math.random() * 1000,
+    data_4: Math.random() * 1000,
+    data_5: Math.random() * 1000,
+    round: 1,
+    easing: 'easeInOutExpo',
+    delay: 300,
+    update: function(){
+      $("#data_1").html(data['data_1']);
+      $("#data_2").html(data['data_2']);
+      $("#data_3").html(data['data_3']);
+      $("#data_4").html(data['data_4']);
+      $("#data_5").html(data['data_5']);
+    }
+  });
+}
 
 };//get ajax api請求結束
 
