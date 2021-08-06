@@ -20,7 +20,8 @@
 
 ## ⚗示範 ##
 
-![](https://i.imgur.com/qPMhcY3.png) 
+![](https://i.imgur.com/qPMhcY3.png)
+![](https://i.imgur.com/a3rJacy.jpeg)
             dashboard^
 
 ![](https://i.imgur.com/H7ZKf7V.png) 
