@@ -2,7 +2,7 @@
 
 //get() //首次執行
 
-function get() {
+function get() { //ajax get api
 s = $("#s").val();//取得keyword
 const api = 'http://127.0.0.1:19132/s/' + s;//api請求地址
 document.title = s + "-的搜尋結果"; //設定標題
@@ -172,7 +172,7 @@ function makePlot(name, price, by, store, sho, standard_deviation, jsond ){ //�
   
   };//plotend
 
-};//get ajax api請求結束
+};//ajax get api請求結束
 
 
 function sidebar() { //側邊導覽切換
