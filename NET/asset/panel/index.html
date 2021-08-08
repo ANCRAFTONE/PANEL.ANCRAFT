@@ -11,7 +11,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!--- javascript src --->
-  <script src='https://cdn.plot.ly/plotly-2.0.0.min.js'></script>
 	<script src='https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js'></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
@@ -297,11 +296,9 @@
 
 
 </main></body>
-<!--- other --->
+<!--- scroll effect --->
 <script src="https://unpkg.com/scrollreveal"></script>
 <script src="Reveal.js"></script>
-<script src="content.js"></script>
-
 <script>
   get(); //首次執行
   $(document).ready(function(){ //按下enter送出請求
@@ -312,9 +309,11 @@
   
   content(); //內容設定參數
 </script>
+<!--- plot lib --->
+<script src='https://cdn.plot.ly/plotly-2.0.0.min.js'></script>
 
-
-
+<!--- config script --->
+<script src="content.js"></script>
 
 
 <ANCRAFTONE></ANCRAFTONE>

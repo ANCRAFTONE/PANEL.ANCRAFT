@@ -3,9 +3,9 @@
 //get() //首次執行
 
 function get() {
-s = $("#s").val();//取得key
+s = $("#s").val();//取得keyword
 const api = 'http://127.0.0.1:19132/s/' + s;//api請求地址
-document.title = s+"-搜尋結果"; //設定標題
+document.title = s + "-的搜尋結果"; //設定標題
 $.ajax({
   type: "GET",
   headers: {},
@@ -22,7 +22,7 @@ $.ajax({
   },
   error: function (thrownError) {
     console.log(thrownError); //列印錯誤訊息
-    template()
+    template() //模擬展示
   }
 });
 
@@ -44,65 +44,10 @@ function lodata(jsond) { //處理數據
     img.push( row['image'] );
     // console.log(row)
 	}
-	makePlotly( name, price, by, store, sho, standard_deviation, jsond ); //製作圖表
   stats(name,price,by,img,store,sho,jsond); //統計
+	makePlot( name, price, by, store, sho, standard_deviation, jsond ); //製作圖表
 }
 
-function makePlotly(name, price, by, store, sho, standard_deviation, jsond ){ //製作圖形化資料表
-
-//商品價格
-	var traces = [{
-		x: name, 
-		y: price,
-    type: 'bar',
-    marker: {
-    color: 'rgb(142,124,195)'
-  }
-	}];
-	Plotly.newPlot('prices', traces, 
-		{title: '商品價格(無排序)'});
-
-    
-//供應商
-	var traces = [{
-		x: by, 
-		y: name,
-    type: 'bar',
-    marker: {
-    color: 'rgb(142,124,195)'
-  }
-	}];
-	Plotly.newPlot('bys', traces, 
-		{title: '供應廠商'});
-
-
-//廠商占比
-  var traces = [{
-    labels: _.compact(store), //處理錯誤或空值
-    type: 'pie',
-    automargin: false
-    }];
-    Plotly.newPlot('pie', traces, 
-      {title: '廠商占比'});
-
-
-
-//零售商店
-var traces = [{
-  x: sho,
-  type: 'histogram',
-  cumulative: {enabled: false},
-  marker: {
-    color: 'rgb(142,124,195)'
-  }
-  }];
-  Plotly.newPlot('anc', traces, 
-    {title: '零售店'});
-
-
-
-
-};//plotend
 
 
 function stats(name,price,by,img,store,sho,jsond){ //製作數據統計
@@ -143,7 +88,7 @@ function stats(name,price,by,img,store,sho,jsond){ //製作數據統計
   $("#data_5").text(jsond.length);
 };//statsend 統計結束
 
-function template() {
+function template() { //製作展示模型
   var data = {
     "data_1":"000",
     "data_2":"000",
@@ -170,6 +115,62 @@ function template() {
     }
   });
 }
+
+function makePlot(name, price, by, store, sho, standard_deviation, jsond ){ //製作圖形化資料表
+
+  //商品價格
+    var traces = [{
+      x: name, 
+      y: price,
+      type: 'bar',
+      marker: {
+      color: 'rgb(142,124,195)'
+    }
+    }];
+    Plotly.newPlot('prices', traces, 
+      {title: '商品價格(無排序)'});
+  
+      
+  //供應商
+    var traces = [{
+      x: by, 
+      y: name,
+      type: 'bar',
+      marker: {
+      color: 'rgb(142,124,195)'
+    }
+    }];
+    Plotly.newPlot('bys', traces, 
+      {title: '供應廠商'});
+  
+  
+  //廠商占比
+    var traces = [{
+      labels: _.compact(store), //處理錯誤或空值
+      type: 'pie',
+      automargin: false
+      }];
+      Plotly.newPlot('pie', traces, 
+        {title: '廠商占比'});
+  
+  
+  
+  //零售商店
+  var traces = [{
+    x: sho,
+    type: 'histogram',
+    cumulative: {enabled: false},
+    marker: {
+      color: 'rgb(142,124,195)'
+    }
+    }];
+    Plotly.newPlot('anc', traces, 
+      {title: '零售店'});
+  
+  
+  
+  
+  };//plotend
 
 };//get ajax api請求結束
 
