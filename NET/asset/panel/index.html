@@ -146,7 +146,7 @@
             <a class="titletext" id="ANCRAFTONE">ANCRAFT</a>
           </div>
           <div class="searchbar">
-            <input autofocus type="text" ondblclick="" ="sidebar()" placeholder="輸入搜尋關鍵字" id="s" value="" onkeypress="document.title = $('#s').val() + '-搜尋'; " >
+            <input autofocus type="text" ondblclick="sidebar()" placeholder="輸入搜尋關鍵字" id="s" value="" onkeypress="document.title = $('#s').val() + '-搜尋'; " >
             <!-- <button type="button" onclick="get()//啟動" class="button">開始查詢</button> -->
             <a class="get" onclick="get()" ondblclick="sidebar()">
               <i class='bx bx-search-alt'></i>
@@ -162,14 +162,14 @@
         <!--- 標題區塊 --->
         <section class="path">
           <div class="toolbar">
-            <div>
+            <div ondblclick="">
               <h1>Admin/儀錶板</h1>
             </div>
             <div class="savebutton">
-              <button onclick="window.print()">print</button>
-              <button onclick="">export</button>
-              <button onclick="">update</button>
-              <button onclick="">upload</button>
+              <button ondblclick="" onclick="window.print()">print</button>
+              <button ondblclick="" onclick="">export</button>
+              <button ondblclick="" onclick="">update</button>
+              <button ondblclick="" onclick="">upload</button>
             </div>
           </div>
         </section>
