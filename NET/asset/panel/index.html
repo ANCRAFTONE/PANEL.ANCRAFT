@@ -146,10 +146,10 @@
             <a class="titletext" id="ANCRAFTONE">ANCRAFT</a>
           </div>
           <div class="searchbar">
-            <input autofocus type="text" placeholder="輸入搜尋關鍵字" id="s" value="" onkeypress="document.title = $('#s').val() + '-搜尋'; ">
+            <input autofocus type="text" ondblclick="" ="sidebar()" placeholder="輸入搜尋關鍵字" id="s" value="" onkeypress="document.title = $('#s').val() + '-搜尋'; " >
             <!-- <button type="button" onclick="get()//啟動" class="button">開始查詢</button> -->
             <a class="get" onclick="get()" ondblclick="sidebar()">
-              <i class='bx bx-search-alt' onclick="get()" ondblclick="sidebar()"></i>
+              <i class='bx bx-search-alt'></i>
             </a>
           </div>
           <div class="user">
@@ -179,7 +179,7 @@
         <section class="plot" id="ANCRAFTONE"> 
           <!--- 統計數據區塊 --->
           <div class="l1">
-            <div class="stats block">
+            <div ondblclick="" class="stats block">
               <div class="data">
                 <div>
                   <h5>已找到的資料</h5>
@@ -195,7 +195,7 @@
                 </a>
               </div>
             </div>
-            <div class="stats block">
+            <div ondblclick="" class="stats block">
               <div class="data">
                 <div>
                   <h5>項目最高標記</h5>
@@ -211,7 +211,7 @@
                 </a>
               </div>
             </div>
-            <div class="stats block">
+            <div ondblclick="" class="stats block">
               <div class="data">
                 <div>
                   <h5>項目最高電量</h5>
@@ -227,7 +227,7 @@
                 </a>
               </div>
             </div>
-            <div class="stats block">
+            <div ondblclick="" class="stats block">
               <div class="data">
                 <div>
                   <h5>項目最低標準</h5>
@@ -243,7 +243,7 @@
                 </a>
               </div>
             </div>
-            <div class="stats block">
+            <div ondblclick="" class="stats block">
               <div class="data">
                 <div>
                   <h5>數據流動總量</h5>
