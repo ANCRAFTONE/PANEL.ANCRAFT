@@ -297,9 +297,6 @@
 
 
 </main></body>
-<!--- scroll effect --->
-<script src="https://unpkg.com/scrollreveal"></script>
-<script src="Reveal.js"></script>
 <script>
   get(); //首次執行
   $(document).ready(function(){ //按下enter送出請求
@@ -308,14 +305,19 @@
       });
   });
   
-  
 </script>
+<!--- scroll effect --->
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="Reveal.js"></script>
+
 <!--- plot lib --->
 <script src='https://cdn.plot.ly/plotly-2.0.0.min.js'></script>
 
 <!--- config script --->
-<script src="content.js">
+<script src="content.js"></script>
+<script>
   content(); //內容設定參數
+
 </script>
 
 
