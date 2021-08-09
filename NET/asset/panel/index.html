@@ -146,10 +146,10 @@
             <a class="titletext" id="ANCRAFTONE">ANCRAFT</a>
           </div>
           <div class="searchbar">
-            <input autofocus type="text" placeholder="輸入搜尋關鍵字" id="s" value="">
+            <input autofocus type="text" placeholder="輸入搜尋關鍵字" id="s" value="" onkeypress="document.title = $('#s').val() + '-搜尋'; ">
             <!-- <button type="button" onclick="get()//啟動" class="button">開始查詢</button> -->
             <a class="get">
-              <i class='bx bx-search-alt' onclick="get()" onchange="get()"></i>
+              <i class='bx bx-search-alt' onclick="get()" ondblclick="sidebar()"></i>
             </a>
           </div>
           <div class="user">
