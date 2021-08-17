@@ -367,7 +367,7 @@
     font-size: 0.31em;
   }
   .stats:hover {
-    box-shadow: 0em 0em 0.131em 0.131em #3191f637, 0 0.91em 1.31em 0.131em #3f395e3a;
+    box-shadow: 0em 0em 0.131em 0.131em #9131f691, 0 0.91em 1.31em 0.131em #3f395e3a;
     transition: 131ms cubic-bezier(1, 0.31, 0.91, 1);
   }
 
@@ -410,8 +410,8 @@
     transition: 1.31s cubic-bezier(0.19, 1.1, 0.56, 1);
     border: #a493fc00 solid 0.3em;
     border-bottom: #a593fc solid 0.3em;
-    font-weight: 700;
     box-shadow: 0.03em 0.03em 0.3em 0em #131e3633;
+    font-weight: 700;
     margin: 0.131em 0.31em 0.131em 0.31em;
     color: #a593fc;
     letter-spacing: 0.131em;
@@ -557,7 +557,7 @@
       background-color: #1f2328;
     }
     #ANCRAFTONE .path h1 {
-      color: #635e59;
+      color: #00d39b;
     }
     .stats .data div h3, .stats .data div h5{
       color: rgb(131, 131, 139);
