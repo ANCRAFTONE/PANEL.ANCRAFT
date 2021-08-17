@@ -549,7 +549,7 @@
 
 
 
-  @supports () {
+  @media screen {
     .block{
       background-color: #33333991;
     }
@@ -564,6 +564,9 @@
     }
     #ANCRAFTONE.top {
       background-color: #344162;
+      color: rgb(131, 153, 187);
+    }
+    #ANCRAFTONE.top .title {
       color: rgb(131, 153, 187);
     }
     #ANCRAFTONE.top .searchbar {
