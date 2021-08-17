@@ -505,6 +505,12 @@
     .stats .footer {
       padding: 0.31em;
     }
+    .l {
+      grid-template-areas: '.';
+    }
+    .t {
+      grid-template-columns: 1fr ;
+    }
   }
   
   @media (max-width: 723px) {
@@ -543,7 +549,7 @@
 
 
 
-  @media screen {
+  @supports () {
     .block{
       background-color: #33333991;
     }
