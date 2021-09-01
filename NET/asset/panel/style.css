@@ -229,6 +229,10 @@
     position: relative;
     grid-template-columns: auto 3em;
   }
+  #ANCRAFTONE.top .searchbar:focus-within { 
+    background-color: #131e36;
+    transition: 131ms cubic-bezier(1, 0.31, 0.91, 1);
+  }
   #ANCRAFTONE.top .searchbar input {
     height: 100%;
     width: 100%;
