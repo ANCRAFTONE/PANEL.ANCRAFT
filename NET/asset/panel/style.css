@@ -228,6 +228,7 @@
     background-color: #3a61750f;
     position: relative;
     grid-template-columns: auto 3em;
+    transition: 131ms cubic-bezier(1, 0.31, 0.91, 1);
   }
   #ANCRAFTONE.top .searchbar:focus-within { 
     background-color: #131e3613;
