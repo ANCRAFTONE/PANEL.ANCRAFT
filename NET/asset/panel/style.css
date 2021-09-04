@@ -185,7 +185,7 @@
     height: 100%;
     background: #f0ecff;
     width: 100%;
-    
+    transition: 131ms cubic-bezier(1, 0.31, 0.91, 1);
   }
   /* 導覽選單 */
   #ANCRAFTONE.top {
@@ -233,7 +233,7 @@
     background-color: #131e3613;
     box-shadow: 0em 0em 0.131em 0.131em #9131f601, 0 0.91em 1.31em 0.131em #3f395e3a, 0 0 0.91em 0.131em #8399bb31;
     transition: 131ms cubic-bezier(1, 0.31, 0.91, 1);
-    border: 0.1131em #8399bb solid;
+    border: -0.131em #8399bb solid;
   }
   #ANCRAFTONE.top .searchbar input {
     height: 100%;
@@ -588,7 +588,7 @@
       background-color: #131e36;
       box-shadow: 0em 0em 0.131em 0.131em #9131f601, 0 0.91em 1.31em 0.131em #3f395e3a, 0 0 0.91em 0.131em #8399bb31;
       transition: 131ms cubic-bezier(1, 0.31, 0.91, 1);
-      border: 0.1131em #8399bb solid;
+      border: -0.131em #8399bb solid;
     }
     #ANCRAFTONE.top .searchbar input {
       color: #fff;
