@@ -1,0 +1,14 @@
+{
+  "name": "admin",
+  "version": "0.0.6",
+  "description": "admin panel ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "admin"
+  ],
+  "author": "ANCRAFTONE",
+  "license": "ISC"
+}
