@@ -11,7 +11,7 @@
 <br><br><br><br><br><br>
 *https://hackmd.io/@ANCRAFT/admin*
 :::    warning
-🪁demo 。ₒº◦°[`adoring-ptolemy-b3167e`](http://net.netlify.app)°◦ºₒ。
+🪁Demo 。ₒº◦°[`adoring-ptolemy-b3167e`](http://net.netlify.app)°◦ºₒ。
 :::
 
 ---
@@ -58,7 +58,7 @@
 
 ## 🧲結構 ##
 
-```bash=
+```jsx=
 admin                              
 ├─ API                             
 │  ├─ start.anc                    
