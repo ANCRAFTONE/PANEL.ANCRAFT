@@ -1,6 +1,6 @@
 
 
-import './App.css';
+// import './App.css';
 import NavMenuBarSection from './NavMenuBarSection';
 import MainSection from './MainSection';
 
@@ -14,3 +14,5 @@ function App() {
 }
 
 export default App;
+
+
