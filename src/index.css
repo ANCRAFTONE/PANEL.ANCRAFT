@@ -15,6 +15,7 @@
       display: grid;
       grid-template-columns: max-content auto;
       /* grid-template-columns: 3% auto; */
+      overflow-x: hidden;
     }
     .mainpage {
       min-height: 100vh;
@@ -22,6 +23,9 @@
       grid-template-columns: max-content auto;
       /* grid-template-columns: 3% auto; */
       width: 100vw;
+    }
+    #root {
+      max-width: 100%;
     }
     /* .opennav{
       min-height: 100vh;
@@ -188,11 +192,12 @@
   
     /* 主要內容 */
     #ANCRAFTONE.main{
+      transition: 131ms cubic-bezier(1, 0.31, 0.91, 1);
       position: relative;
       height: 100%;
       background: #f0ecff;
       width: 100%;
-      transition: 131ms cubic-bezier(1, 0.31, 0.91, 1);
+      min-width: 100%;
     }
     /* 導覽選單 */
     #ANCRAFTONE.top {
