@@ -1,0 +1,72 @@
+[
+    {
+    "href": "#ANCRAFTONE",
+    "i": "bx bxs-dashboard",
+    "span": "儀錶板"
+    },
+    {
+    "href": "#ANCRAFTONE",
+    "i": "bx bxs-data",
+    "span": "資料庫"
+    },
+    {
+    "href": "#ANCRAFTONE",
+    "i": "bx bxs-doughnut-chart",
+    "span": "狀態查詢"
+    },
+    {
+    "href": "#ANCRAFTONE",
+    "i": "bx bxs-file-md",
+    "span": "內容說明"
+    },
+    {
+    "href": "#ANCRAFTONE",
+    "i": "bx bxs-paper-plane bx-tada",
+    "span": "聯絡我"
+    },
+    {
+    "href": "#ANCRAFTONE",
+    "i": "bx bxs-compass",
+    "span": "資料蒐集"
+    },
+    {
+    "href": "#ANCRAFTONE",
+    "i": "bx bxs-brain",
+    "span": "中樞系統"
+    },
+    {
+    "href": "#ANCRAFTONE",
+    "i": "bx bxs-memory-card",
+    "span": "存檔資料"
+    },
+    {
+    "href": "#ANCRAFTONE",
+    "i": "bx bxs-video-recording",
+    "span": "創建紀錄"
+    },
+    {
+    "href": "#ANCRAFTONE",
+    "i": "bx bxs-bolt-circle",
+    "span": "硬體加速"
+    },
+    {
+    "href": "#ANCRAFTONE",
+    "i": "bx bx-align-justify",
+    "span": "排版設計"
+    },
+    {
+    "href": "#ANCRAFTONE",
+    "i": "bx bx-infinite",
+    "span": "循環排程"
+    },
+    {
+    "href": "#ANCRAFTONE",
+    "i": "bx bxs-tag-alt",
+    "span": "多放一行"
+    },
+    {
+    "href": "#ANCRAFTONE",
+    "i": "bx bxs-tag-alt",
+    "span": "json"
+    }
+]

@@ -7,7 +7,7 @@ import MainSection from './main/MainSection';
 function App() {
   return (
     // <!--- main --->
-    <div class='main'>  
+    <div class='mainpage'>  
       <NavMenuBarSection />
       <MainSection />
     </div> 

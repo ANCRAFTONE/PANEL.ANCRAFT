@@ -16,6 +16,12 @@
       grid-template-columns: max-content auto;
       /* grid-template-columns: 3% auto; */
     }
+    .mainpage {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: max-content auto;
+      /* grid-template-columns: 3% auto; */
+    }
     /* .opennav{
       min-height: 100vh;
       display: grid;
