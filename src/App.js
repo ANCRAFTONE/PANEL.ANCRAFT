@@ -1,15 +1,16 @@
 
 
 // import './App.css';
-import NavMenuBarSection from './NavMenuBarSection';
-import MainSection from './MainSection';
+import NavMenuBarSection from './main/NavMenuBarSection';
+import MainSection from './main/MainSection';
 
 function App() {
   return (
-    <main id="ANCRAFTONE" class="NETANCRAFTONE" name="ANCRAFTONE">  
+    // <!--- main --->
+    <div class='main'>  
       <NavMenuBarSection />
       <MainSection />
-    </main> 
+    </div> 
   );
 }
 
