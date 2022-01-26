@@ -12,9 +12,9 @@ function App() {
         {/* <!--- main head---> */}
         <title>ANCRAFTONE</title>
         <link rel="icon" href="https://i.imgur.com/BatHs5l.png" />
-        <link rel="stylesheet" href="%PUBLIC_URL%/style.css" />
-        <script src='%PUBLIC_URL%/ajax.js'></script>
-        <script src='%PUBLIC_URL%/script.js'></script>
+        {/* <link rel="stylesheet" href="style.css" /> */}
+        {/* <script src='script.js'></script> */}
+        {/* <script src='ajax.js'></script> */}
         <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
