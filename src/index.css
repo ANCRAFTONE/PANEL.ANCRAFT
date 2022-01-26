@@ -26,6 +26,7 @@
     }
     #root {
       max-width: 100%;
+      min-height:131vh;
     }
     /* .opennav{
       min-height: 100vh;
