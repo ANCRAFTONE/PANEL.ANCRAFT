@@ -1,11 +1,11 @@
 
+
 // import './ANCRAFTONE.css';
 // import ANCRAFTONE from './ANCRAFTONE';
+import * as React from 'react';
 
-function ANCRAFTONE() {
-    return (
-        <a></a>
-    );
+export default function ANCRAFTONE({}) {
+	return (
+		<a></a>
+	);
 }
-
-export default ANCRAFTONE;
