@@ -4,6 +4,7 @@
 import NavMenuBarSection from './main/NavMenuBarSection';
 import MainSection from './main/MainSection';
 import { Helmet } from 'react-helmet';
+import * as React from 'react';
 
 function App() {
   return (
