@@ -22,7 +22,7 @@ export default function MainSection({}) {
             </div>
             <div class="user">
               <p>hi,</p>
-              <a id="username" id="ANCRAFTONE"  ondblclick="sidebar()">ANCRAFT</a>
+              <a id="username" class="ANCRAFTONE"  ondblclick="sidebar()">ANCRAFT</a>
             </div>
             {/* <!--- 頂部導覽區 ---> */}
           </section>
