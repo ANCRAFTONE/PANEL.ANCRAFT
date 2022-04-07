@@ -2,8 +2,8 @@
 
 // import './ANCRAFTONE.css';
 // import ANCRAFTONE from './ANCRAFTONE';
-import '../index.css';
-import App from '../App';
+import './panel/index.css';
+import App from './panel/App';
 import * as React from 'react';
 
 export default function ANCRAFTONE({}) {
