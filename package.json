@@ -27,9 +27,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "gabuild": "gatsby build",
-    "gastart": "gatsby develop",
-    "serve": "gatsby serve"
+    "gabuild": "npx gatsby build",
+    "gastart": "npx gatsby develop",
+    "serve": "npx gatsby serve"
   },
   "eslintConfig": {
     "extends": [
