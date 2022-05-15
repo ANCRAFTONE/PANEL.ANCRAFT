@@ -1,8 +1,8 @@
 //面板程式
 
 // import './App.css';
-import NavMenuBarSection from '../../main/NavMenuBarSection';
-import MainSection from '../../main/MainSection';
+import NavMenuBarSection from './main/NavMenuBarSection';
+import MainSection from './main/MainSection';
 import { Helmet } from 'react-helmet';
 import * as React from 'react';
 
