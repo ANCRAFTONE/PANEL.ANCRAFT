@@ -59,51 +59,75 @@
 ## 🧲結構 ##
 
 ```jsx=
-admin                              
-├─ API                             
-│  ├─ start.anc                    
-│  └─ ViA.json                     
-├─ APP                             
-│  ├─ NET                          
-│  │  └─ asset                     
-│  │     └─ panel                  
-│  │        ├─ ajax.js             
-│  │        ├─ content.js          
-│  │        ├─ index.html          
-│  │        ├─ plot.js             
-│  │        ├─ Reveal.js           
-│  │        ├─ script.js           
-│  │        └─ style.css           
-│  └─ node                         
-│     ├─ admin.ancraft.one         
-│     │  ├─ public                 
-│     │  │  ├─ favicon.ico         
-│     │  │  ├─ index.html          
-│     │  │  ├─ logo192.png         
-│     │  │  ├─ logo512.png         
-│     │  │  ├─ manifest.json       
-│     │  │  └─ robots.txt          
-│     │  ├─ src                    
-│     │  │  ├─ App.css             
-│     │  │  ├─ App.js              
-│     │  │  ├─ App.test.js         
-│     │  │  ├─ index.css           
-│     │  │  ├─ index.js            
-│     │  │  ├─ logo.svg            
-│     │  │  ├─ reportWebVitals.js  
-│     │  │  └─ setupTests.js       
-│     │  ├─ package-lock.json      
-│     │  ├─ package.json           
-│     │  └─ README.md              
-│     ├─ app.js                    
-│     ├─ index.js                  
-│     ├─ package-lock.json         
-│     ├─ package.json              
-│     └─ react                     
-├─ index.html                      
-├─ netlify.toml                    
-├─ README.md                       
-└─ SECURITY.md                     
+        
+PANEL.ANCRAFT                         
+├─ CREATIVE                           
+│  └─ ANCRAFT.ONE                     
+│     ├─ API                          
+│     │  ├─ start.anc                 
+│     │  └─ ViA.json                  
+│     └─ APP                          
+│        └─ NET                       
+│           └─ admin                  
+│              └─ dashboard           
+│                 └─ panel            
+│                    ├─ ajax.js       
+│                    ├─ ANCRAFT.ONE   
+│                    ├─ content.js    
+│                    ├─ index.html    
+│                    ├─ Reveal.js     
+│                    ├─ script.js     
+│                    └─ style.css     
+├─ lab                                
+│  ├─ all.css                         
+│  ├─ BUTTON.CSS                      
+│  ├─ nav.css                         
+│  └─ page.css                        
+├─ public                             
+│  ├─ account                         
+│  │  └─ index.html                   
+│  ├─ land                            
+│  │  └─ index.html                   
+│  ├─ panel                           
+│  │  └─ App                          
+│  │     └─ index.html                
+│  ├─ static                          
+│  └─ index.html                      
+├─ src                                
+│  ├─ AppAssets                       
+│  │  ├─ ajax.js                      
+│  │  ├─ ANCRAFT.ONE                  
+│  │  ├─ content.js                   
+│  │  ├─ Reveal.js                    
+│  │  ├─ script.js                    
+│  │  └─ style.css                    
+│  ├─ pages                           
+│  │  ├─ panel                        
+│  │  │  ├─ main                      
+│  │  │  │  ├─ MainSection.jsx        
+│  │  │  │  ├─ nav.json               
+│  │  │  │  ├─ NavList.jsx            
+│  │  │  │  ├─ NavMenuBarSection.jsx  
+│  │  │  │  └─ s.html                 
+│  │  │  ├─ App.js                    
+│  │  │  └─ index.css                 
+│  │  ├─ account.jsx                  
+│  │  ├─ index.js                     
+│  │  └─ land.jsx                     
+│  ├─ ANCRAFTONE.js                   
+│  ├─ index.js                        
+│  ├─ reportWebVitals.js              
+│  └─ setupTests.js                   
+├─ ANCRAFTONE.jsx                     
+├─ gatsby-config.js                   
+├─ index.html                         
+├─ netlify.toml                       
+├─ package-lock.json                  
+├─ package.json                       
+├─ README.md                          
+├─ SECURITY.md                        
+└─ yarn.lock                          
+          
                
 
 ```
